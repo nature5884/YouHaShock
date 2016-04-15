@@ -1,0 +1,1536 @@
+﻿[2016.04.14-06.48.15:634][  0]Log file open, 04/14/16 15:48:15
+[2016.04.14-06.48.15:634][  0]LogInit:Display: Running engine for game: YouHaShock
+[2016.04.14-06.48.15:634][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.14-06.48.15:634][  0]LogInit:Display: RandInit(1983451156) SRandInit(1983451157).
+[2016.04.14-06.48.15:634][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.14-06.48.15:634][  0]LogStats: Stats thread started at 0.074248
+[2016.04.14-06.48.15:634][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.14-06.48.15:634][  0]LogInit: API Version: 2758231
+[2016.04.14-06.48.15:634][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.14-06.48.15:634][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.14-06.48.15:634][  0]LogInit: Build Configuration: Development
+[2016.04.14-06.48.15:634][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.14-06.48.15:634][  0]LogInit: Command line:  
+[2016.04.14-06.48.15:634][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.14-06.48.15:634][  0]LogInit: Rocket: 1
+[2016.04.14-06.48.15:642][  0]LogInit: Using libcurl 7.41.0
+[2016.04.14-06.48.15:642][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.14-06.48.15:642][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.14-06.48.15:642][  0]LogInit:  - other features:
+[2016.04.14-06.48.15:642][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.14-06.48.15:642][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.14-06.48.15:642][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.14-06.48.15:642][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.14-06.48.15:642][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.14-06.48.15:642][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.14-06.48.15:642][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.14-06.48.15:642][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.14-06.48.15:642][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.14-06.48.15:642][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.14-06.48.15:649][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.14-06.48.15:655][  0]LogInit: Object subsystem initialized
+[2016.04.14-06.48.15:656][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.14-06.48.15:656][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.14-06.48.15:665][  0]LogInit: Computer: DESKTOP-3FGIS47
+[2016.04.14-06.48.15:665][  0]LogInit: User: root
+[2016.04.14-06.48.15:665][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.14-06.48.15:665][  0]LogInit: High frequency timer resolution =3.328122 MHz
+[2016.04.14-06.48.15:665][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.14-06.48.15:665][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.14-06.48.15:665][  0]LogMemory: Process Physical Memory: 56.05 MB used, 56.05 MB peak
+[2016.04.14-06.48.15:665][  0]LogMemory: Process Virtual Memory: 58.73 MB used, 58.73 MB peak
+[2016.04.14-06.48.15:665][  0]LogMemory: Physical Memory: 3318.00 MB used, 8112.36 MB total
+[2016.04.14-06.48.15:665][  0]LogMemory: Virtual Memory: 384.09 MB used, 134217728.00 MB total
+[2016.04.14-06.48.15:705][  0]LogTextLocalizationManager: No specific translations for ('ja-JP') exist, so ('ja') translations will be used.
+[2016.04.14-06.48.15:795][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:false):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (816077464) Localized String: (偽)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (816077464) Localized String: (false)
+[2016.04.14-06.48.15:795][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:true):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-942328987) Localized String: (真)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (-942328987) Localized String: (true)
+[2016.04.14-06.48.15:795][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (再生が最後まで終わった後、ロープ再生するようにしますか？)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+[2016.04.14-06.48.15:795][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースで値を取得するX座標)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースでサンプリングするX座標)
+[2016.04.14-06.48.15:795][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースで値を取得するY座標)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースでサンプリングするY座標)
+[2016.04.14-06.48.15:795][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースで値を取得するZ座標)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースでサンプリングするZ座標)
+[2016.04.14-06.48.15:795][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (再生するブレンドスペースのアセット)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1599043277) Localized String: (再生するブレンド空間アセット)
+[2016.04.14-06.48.15:795][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (このマシーンで1フレームあたりに同時に処理できるトランジションの最大数)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1567650430) Localized String: (単一フレームでマシーンが「同時」に受け取れる遷移の最大数)
+[2016.04.14-06.48.15:795][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+[2016.04.14-06.48.16:032][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2016.04.14-06.48.16:032][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 2 output[s]
+[2016.04.14-06.48.16:033][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.14-06.48.16:033][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 0 output[s]
+[2016.04.14-06.48.16:033][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.14-06.48.16:037][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.14-06.48.16:037][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.14-06.48.16:052][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.14-06.48.16:067][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/root/Documents/SourceTree/YouHaShock/Intermediate/Shaders/WorkingDirectory/7440/).
+[2016.04.14-06.48.16:068][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/root/AppData/Local/Temp/UnrealShaderWorkingDir/1F8C476B4B6081918BD00A9EBA19014E/'.
+[2016.04.14-06.48.16:068][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.14-06.48.17:019][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.14-06.48.17:025][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.14-06.48.17:030][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.14-06.48.17:036][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.14-06.48.17:044][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.14-06.48.17:049][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.14-06.48.17:054][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.14-06.48.17:061][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.14-06.48.17:065][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.14-06.48.17:073][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.14-06.48.17:079][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.14-06.48.17:090][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.14-06.48.17:090][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.14-06.48.17:092][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.14-06.48.17:124][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.14-06.48.17:128][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.14-06.48.17:134][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.14-06.48.17:141][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.14-06.48.17:141][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.14-06.48.17:302][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.14-06.48.17:468][  0]LogDerivedDataCache: Loaded boot cache 0.17s 41MB C:/Users/root/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.14-06.48.17:468][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/root/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.14-06.48.17:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/root/Documents/SourceTree/YouHaShock/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.14-06.48.17:468][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.14-06.48.17:469][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/root/Documents/SourceTree/YouHaShock/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.14-06.48.17:469][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.14-06.48.17:547][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.14-06.48.17:561][  0]LogDerivedDataCache: Using Local data cache path C:/Users/root/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.14-06.48.18:463][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.14-06.48.18:475][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.14-06.48.18:680][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.14-06.48.18:680][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.14-06.48.19:090][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.14-06.48.21:053][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.14-06.48.21:271][  0]LogAssetRegistry: FAssetRegistry took 0.0140 seconds to start up
+[2016.04.14-06.48.21:605][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.04.14-06.48.22:005][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.04.14-06.48.22:027][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.04.14-06.48.22:050][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.04.14-06.48.22:638][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.14-06.48.22:638][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.14-06.48.22:760][  0]LogEngine: Initializing Engine...
+[2016.04.14-06.48.22:764][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.14-06.48.22:766][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.14-06.48.22:954][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.14-06.48.22:974][  0]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-06.48.23:040][  0]LogInit: FAudioDevice initialized.
+[2016.04.14-06.48.23:062][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/root/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.14-06.48.23:065][  0]LogInit: Texture streaming: Enabled
+[2016.04.14-06.48.23:073][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.14-06.48.23:074][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.14-06.48.23:074][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9e134f6045264bdc110d668ebaba8e11|278cf325558041349b6264c3be001f84|526e734b-a5cd-45ce-bc9b-48d080aa42fc
+[2016.04.14-06.48.23:074][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.14-06.48.23:093][  0]LogInit: Transaction tracking system initialized
+[2016.04.14-06.48.23:153][  0]BlueprintLog: New page: エディタの読み込み
+[2016.04.14-06.48.23:359][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2016.04.14-06.48.23:496][  0]LogConsoleResponse:Display: 
+[2016.04.14-06.48.23:653][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.14-06.48.23:904][  0]LogFileCache: Scanning file cache for directory 'C:/Users/root/Documents/SourceTree/YouHaShock/Content/' took 0.02s
+[2016.04.14-06.48.23:904][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.04.14-06.48.23:906][  0]Cmd: MAP LOAD FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Level/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.14-06.48.23:908][  0]LightingResults: New page: ライティングのビルド
+[2016.04.14-06.48.23:917][  0]MapCheck: New page: マップをチェック
+[2016.04.14-06.48.23:917][  0]LightingResults: New page: <何も選択されていません>
+[2016.04.14-06.48.23:940][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E25D64A160
+[2016.04.14-06.48.24:826][  0]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-06.48.24:856][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.14-06.48.24:858][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.14-06.48.24:932][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 73.427ミリ秒かかりました。
+[2016.04.14-06.48.24:932][  0]LogFileHelpers: Loading map 'GameLevel' took 1.027
+[2016.04.14-06.48.25:298][  0]LogCollectionManager: Loaded 0 collections in 0.001401 seconds
+[2016.04.14-06.48.25:361][  0]LogFileCache: Scanning file cache for directory 'C:/Users/root/Documents/SourceTree/YouHaShock/Saved/Collections/' took 0.01s
+[2016.04.14-06.48.25:361][  0]LogFileCache: Scanning file cache for directory 'C:/Users/root/Documents/SourceTree/YouHaShock/Content/Developers/root/Collections/' took 0.01s
+[2016.04.14-06.48.25:361][  0]LogFileCache: Scanning file cache for directory 'C:/Users/root/Documents/SourceTree/YouHaShock/Content/Collections/' took 0.01s
+[2016.04.14-06.48.25:361][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.14-06.48.25:370][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 1893 classes and 338 folders.
+[2016.04.14-06.48.25:380][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.14-06.48.25:519][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.04.14-06.48.25:531][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.14-06.48.25:674][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.14-06.48.25:688][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2016.04.14-06.48.25:714][  0]LogLoad: Full Startup: 10.51 seconds (BP compile: 0.16 seconds)
+[2016.04.14-06.48.25:726][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
+[2016.04.14-06.48.25:729][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.14-06.48.25:810][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.14-06.48.25:982][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.04.14-06.48.26:549][  5]LogAssetRegistry: Asset discovery search completed in 5.2918 seconds
+[2016.04.14-06.48.26:551][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.14-06.48.26:551][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000147 seconds (updated 0 objects)
+[2016.04.14-06.50.09:750][591]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-06.50.10:346][591]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2016.04.14-06.50.17:115][890]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Hello
+[2016.04.14-06.50.52:593][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-06.50.57:942][868]BlueprintLog: New page: Enemy をコンパイル
+[2016.04.14-06.50.58:076][868]BlueprintEditorCompileResults: 情報 [0162.87] Enemy のコンパイルに成功しました！  [ 133 ミリ秒]
+[2016.04.14-06.50.59:187][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-06.50.59:189][961]PIE: New page: PIEセッション: GameLevel (2016/04/15 0:50:59)
+[2016.04.14-06.50.59:190][961]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-06.50.59:194][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003664s)
+[2016.04.14-06.50.59:194][961]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-06.50.59:195][961]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2016.04.14-06.50.59:195][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.005079s)
+[2016.04.14-06.50.59:222][961]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-06.50.59:226][961]LogInit: FAudioDevice initialized.
+[2016.04.14-06.50.59:286][961]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-06.50.59:300][961]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-15.50.59
+[2016.04.14-06.50.59:300][961]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-06.50.59:301][961]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-06.50.59:303][961]LogWorld: Bringing up level for play took: 0.004859
+[2016.04.14-06.50.59:322][961]LogBlueprintUserMessages: [ThirdPersonCharacter_C_1] Hello
+[2016.04.14-06.50.59:333][961]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel 0.811のプレイ イン エディタの開始時間
+[2016.04.14-06.51.05:132][517]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-06.51.05:640][566]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-06.51.06:140][615]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-06.51.06:612][652]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E214BC34C0
+[2016.04.14-06.54.23:211][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-06.54.23:481][281]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.04.14-06.54.26:193][500]BlueprintLog: New page: ThirdPersonCharacter をコンパイル
+[2016.04.14-06.54.26:313][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.04.14-06.54.26:369][500]BlueprintEditorCompileResults: 情報 [0371.16] ThirdPersonCharacter のコンパイルに成功しました！  [ 176 ミリ秒]
+[2016.04.14-06.54.27:528][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-06.54.27:528][573]PIE: New page: PIEセッション: GameLevel (2016/04/15 0:54:27)
+[2016.04.14-06.54.27:528][573]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-06.54.27:530][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002056s)
+[2016.04.14-06.54.27:531][573]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-06.54.27:531][573]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2016.04.14-06.54.27:531][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.003044s)
+[2016.04.14-06.54.27:531][573]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-06.54.27:560][573]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-06.54.27:563][573]LogInit: FAudioDevice initialized.
+[2016.04.14-06.54.27:600][573]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-06.54.27:602][573]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-15.54.27
+[2016.04.14-06.54.27:602][573]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-06.54.27:603][573]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-06.54.27:603][573]LogWorld: Bringing up level for play took: 0.002439
+[2016.04.14-06.54.27:606][573]LogBlueprintUserMessages: [ThirdPersonCharacter_C_7] Hello
+[2016.04.14-06.54.27:607][573]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel -0.915のプレイ イン エディタの開始時間
+[2016.04.14-06.54.33:757][ 77]LogBlueprintUserMessages: [ThirdPersonCharacter_C_7] Hello
+[2016.04.14-06.54.34:257][119]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-06.54.34:268][120]LogBlueprintUserMessages: [ThirdPersonCharacter_C_7] Hello
+[2016.04.14-06.54.34:268][120]LogBlueprintUserMessages: [ThirdPersonCharacter_C_7] ハグできるよ
+[2016.04.14-06.54.35:291][204]LogBlueprintUserMessages: [ThirdPersonCharacter_C_7] Hello
+[2016.04.14-06.54.35:458][217]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-06.54.37:177][361]LogBlueprintUserMessages: [ThirdPersonCharacter_C_7] Hello
+[2016.04.14-06.54.37:676][403]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-06.54.37:745][409]LogBlueprintUserMessages: [ThirdPersonCharacter_C_7] Hello
+[2016.04.14-06.54.37:745][409]LogBlueprintUserMessages: [ThirdPersonCharacter_C_7] ハグできるよ
+[2016.04.14-06.54.38:182][446]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-06.54.38:552][477]LogBlueprintUserMessages: [ThirdPersonCharacter_C_7] Hello
+[2016.04.14-06.54.38:687][488]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-06.54.39:528][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E24F4144A0
+[2016.04.14-06.54.57:956][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-06.55.00:064][ 97]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.14-06.55.00:066][ 97]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.04.14-06.55.00:073][ 97]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2016.04.14-06.55.00:285][ 97]LogPlayLevel: PlayLevel: Blueprint regeneration took 220 ms (2 blueprints)
+[2016.04.14-06.55.00:290][ 97]LogPlayLevel: [PlayLevel] Compiling Enemy before play...
+[2016.04.14-06.55.00:366][ 97]LogPlayLevel: PlayLevel: Blueprint regeneration took 302 ms (2 blueprints)
+[2016.04.14-06.55.00:390][ 97]PIE: New page: PIEセッション: GameLevel (2016/04/15 0:55:00)
+[2016.04.14-06.55.00:390][ 97]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-06.55.00:392][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002084s)
+[2016.04.14-06.55.00:392][ 97]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-06.55.00:393][ 97]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2016.04.14-06.55.00:393][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.003090s)
+[2016.04.14-06.55.00:419][ 97]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-06.55.00:422][ 97]LogInit: FAudioDevice initialized.
+[2016.04.14-06.55.00:453][ 97]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-06.55.00:456][ 97]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-15.55.00
+[2016.04.14-06.55.00:456][ 97]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-06.55.00:456][ 97]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-06.55.00:456][ 97]LogWorld: Bringing up level for play took: 0.002144
+[2016.04.14-06.55.00:458][ 97]LogBlueprintUserMessages: [ThirdPersonCharacter_C_8] Hello
+[2016.04.14-06.55.00:458][ 97]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel -0.064のプレイ イン エディタの開始時間
+[2016.04.14-06.55.13:493][120]LogBlueprintUserMessages: [ThirdPersonCharacter_C_8] Hello
+[2016.04.14-06.55.13:493][120]LogBlueprintUserMessages: [ThirdPersonCharacter_C_8] ハグできるよ
+[2016.04.14-06.55.13:634][132]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-06.55.14:518][201]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-06.55.14:588][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E21047A3E0
+[2016.04.14-06.59.00:506][836]LogSavePackage: Save=39.818851ms
+[2016.04.14-06.59.00:506][836]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/GameLevel_Auto1C6B326814AF33C6286E485B50C385D97.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Level/GameLevel_Auto1.umap'
+[2016.04.14-06.59.00:508][836]LogSavePackage: Total save time: 118.449986ms
+[2016.04.14-06.59.00:508][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Level/GameLevel_Auto1.umap
+[2016.04.14-06.59.00:513][836]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/GameLevel' took 0.173
+[2016.04.14-06.59.00:513][836]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.173
+[2016.04.14-06.59.00:521][836]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Enemy] ([1] browsable assets)...
+[2016.04.14-06.59.00:542][836]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Enemy.Enemy]
+[2016.04.14-06.59.00:542][836]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Enemy]
+[2016.04.14-06.59.00:542][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Enemy" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/Enemy_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.04.14-06.59.00:751][836]LogSavePackage: Save=190.388153ms
+[2016.04.14-06.59.00:751][836]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Enemy_Auto152E13E1A42507ABB578FDD9E9D5FF6BD.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/Enemy_Auto1.uasset'
+[2016.04.14-06.59.00:754][836]LogSavePackage: Total save time: 207.123119ms
+[2016.04.14-06.59.00:754][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/Enemy_Auto1.uasset
+[2016.04.14-06.59.00:759][836]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/ThirdPersonCharacter] ([1] browsable assets)...
+[2016.04.14-06.59.00:777][836]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2016.04.14-06.59.00:777][836]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/ThirdPersonCharacter]
+[2016.04.14-06.59.01:075][836]LogSavePackage: Save=271.664307ms
+[2016.04.14-06.59.01:075][836]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/ThirdPersonCharacter_Auto124ED83414E0DE18D91CB6DA69C8AD929.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/ThirdPersonCharacter_Auto1.uasset'
+[2016.04.14-06.59.01:079][836]LogSavePackage: Total save time: 297.898337ms
+[2016.04.14-06.59.01:079][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/ThirdPersonCharacter_Auto1.uasset
+[2016.04.14-06.59.01:079][836]LogFileHelpers: Auto-saving content packages took 0.562
+[2016.04.14-07.04.15:737][937]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\root\Downloads\oasis.FBX)
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: Model, ItemCount : 51
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: NodeAttribute, ItemCount : 34
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: Geometry, ItemCount : 17
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: Material, ItemCount : 1
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: CollectionExclusive, ItemCount : 2
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: AnimationCurve, ItemCount : 306
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: AnimationCurveNode, ItemCount : 102
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: Deformer, ItemCount : 87
+[2016.04.14-07.04.15:794][937]LogFbx: ItemName: Pose, ItemCount : 1
+[2016.04.14-07.04.15:867][937]LogFbx: Loading FBX Scene from C:\Users\root\Downloads\oasis.FBX
+[2016.04.14-07.04.16:145][937]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-07.04.22:340][937]LogFbx: Loading FBX Scene from C:\Users\root\Downloads\oasis.FBX
+[2016.04.14-07.04.22:623][937]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_calf_l] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_calf_l (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_calf_l]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_body1] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_body1 (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_body1]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_body2] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_body2 (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_body2]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_arm_l] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_arm_l (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_arm_l]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_body3] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_body3 (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_body3]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_waist] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_waist (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_waist]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_thigh_l] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_thigh_l (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_thigh_l]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_upper arm_l] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_upper arm_l (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_upper arm_l]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_palm1_l] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_palm1_l (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_palm1_l]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_palm2_l] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_palm2_l (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_palm2_l]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_head] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_head (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_head]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_upper arm_r] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node Attribute Child 1] taiko_upper arm_r (Type Mesh).
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node END [taiko_upper arm_r]
+[2016.04.14-07.04.22:664][937]LogFbx: =================================================
+[2016.04.14-07.04.22:664][937]LogFbx: Dumping Node START [taiko_arm_r] 
+[2016.04.14-07.04.22:664][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:664][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:665][937]LogFbx: =================================================
+[2016.04.14-07.04.22:665][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:665][937]LogFbx: 		[Node Attribute Child 1] taiko_arm_r (Type Mesh).
+[2016.04.14-07.04.22:665][937]LogFbx: Dumping Node END [taiko_arm_r]
+[2016.04.14-07.04.22:665][937]LogFbx: =================================================
+[2016.04.14-07.04.22:665][937]LogFbx: Dumping Node START [taiko_palm_r] 
+[2016.04.14-07.04.22:665][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:665][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:665][937]LogFbx: =================================================
+[2016.04.14-07.04.22:665][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:665][937]LogFbx: 		[Node Attribute Child 1] taiko_palm_r (Type Mesh).
+[2016.04.14-07.04.22:665][937]LogFbx: Dumping Node END [taiko_palm_r]
+[2016.04.14-07.04.22:665][937]LogFbx: =================================================
+[2016.04.14-07.04.22:665][937]LogFbx: Dumping Node START [taiko_palm_r] 
+[2016.04.14-07.04.22:665][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:665][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:665][937]LogFbx: =================================================
+[2016.04.14-07.04.22:665][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:665][937]LogFbx: 		[Node Attribute Child 1] taiko_palm_r (Type Mesh).
+[2016.04.14-07.04.22:665][937]LogFbx: Dumping Node END [taiko_palm_r]
+[2016.04.14-07.04.22:665][937]LogFbx: =================================================
+[2016.04.14-07.04.22:665][937]LogFbx: Dumping Node START [taiko_thigh_r] 
+[2016.04.14-07.04.22:665][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:665][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:665][937]LogFbx: =================================================
+[2016.04.14-07.04.22:665][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:665][937]LogFbx: 		[Node Attribute Child 1] taiko_thigh_r (Type Mesh).
+[2016.04.14-07.04.22:665][937]LogFbx: Dumping Node END [taiko_thigh_r]
+[2016.04.14-07.04.22:665][937]LogFbx: =================================================
+[2016.04.14-07.04.22:665][937]LogFbx: Dumping Node START [taiko_calf_r] 
+[2016.04.14-07.04.22:665][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:665][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:665][937]LogFbx: =================================================
+[2016.04.14-07.04.22:665][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:665][937]LogFbx: 		[Node Attribute Child 1] taiko_calf_r (Type Mesh).
+[2016.04.14-07.04.22:665][937]LogFbx: Dumping Node END [taiko_calf_r]
+[2016.04.14-07.04.22:669][937]LogFbx: =================================================
+[2016.04.14-07.04.22:669][937]LogFbx: Dumping Node START [taiko_calf_l] 
+[2016.04.14-07.04.22:669][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:669][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:669][937]LogFbx: =================================================
+[2016.04.14-07.04.22:669][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:669][937]LogFbx: 		[Node Attribute Child 1] taiko_calf_l (Type Mesh).
+[2016.04.14-07.04.22:669][937]LogFbx: Dumping Node END [taiko_calf_l]
+[2016.04.14-07.04.22:669][937]LogFbx: =================================================
+[2016.04.14-07.04.22:669][937]LogFbx: Dumping Node START [taiko_body1] 
+[2016.04.14-07.04.22:669][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:669][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:669][937]LogFbx: =================================================
+[2016.04.14-07.04.22:669][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:669][937]LogFbx: 		[Node Attribute Child 1] taiko_body1 (Type Mesh).
+[2016.04.14-07.04.22:669][937]LogFbx: Dumping Node END [taiko_body1]
+[2016.04.14-07.04.22:669][937]LogFbx: =================================================
+[2016.04.14-07.04.22:669][937]LogFbx: Dumping Node START [taiko_body2] 
+[2016.04.14-07.04.22:669][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:669][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:669][937]LogFbx: =================================================
+[2016.04.14-07.04.22:669][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:669][937]LogFbx: 		[Node Attribute Child 1] taiko_body2 (Type Mesh).
+[2016.04.14-07.04.22:669][937]LogFbx: Dumping Node END [taiko_body2]
+[2016.04.14-07.04.22:669][937]LogFbx: =================================================
+[2016.04.14-07.04.22:669][937]LogFbx: Dumping Node START [taiko_arm_l] 
+[2016.04.14-07.04.22:669][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:669][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:669][937]LogFbx: =================================================
+[2016.04.14-07.04.22:669][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:669][937]LogFbx: 		[Node Attribute Child 1] taiko_arm_l (Type Mesh).
+[2016.04.14-07.04.22:669][937]LogFbx: Dumping Node END [taiko_arm_l]
+[2016.04.14-07.04.22:669][937]LogFbx: =================================================
+[2016.04.14-07.04.22:669][937]LogFbx: Dumping Node START [taiko_body3] 
+[2016.04.14-07.04.22:669][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:669][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:669][937]LogFbx: =================================================
+[2016.04.14-07.04.22:669][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:669][937]LogFbx: 		[Node Attribute Child 1] taiko_body3 (Type Mesh).
+[2016.04.14-07.04.22:669][937]LogFbx: Dumping Node END [taiko_body3]
+[2016.04.14-07.04.22:670][937]LogFbx: =================================================
+[2016.04.14-07.04.22:670][937]LogFbx: Dumping Node START [taiko_waist] 
+[2016.04.14-07.04.22:670][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:670][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:670][937]LogFbx: =================================================
+[2016.04.14-07.04.22:670][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:670][937]LogFbx: 		[Node Attribute Child 1] taiko_waist (Type Mesh).
+[2016.04.14-07.04.22:670][937]LogFbx: Dumping Node END [taiko_waist]
+[2016.04.14-07.04.22:670][937]LogFbx: =================================================
+[2016.04.14-07.04.22:670][937]LogFbx: Dumping Node START [taiko_thigh_l] 
+[2016.04.14-07.04.22:670][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:670][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:670][937]LogFbx: =================================================
+[2016.04.14-07.04.22:670][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:670][937]LogFbx: 		[Node Attribute Child 1] taiko_thigh_l (Type Mesh).
+[2016.04.14-07.04.22:670][937]LogFbx: Dumping Node END [taiko_thigh_l]
+[2016.04.14-07.04.22:670][937]LogFbx: =================================================
+[2016.04.14-07.04.22:670][937]LogFbx: Dumping Node START [taiko_upper arm_l] 
+[2016.04.14-07.04.22:670][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:670][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:670][937]LogFbx: =================================================
+[2016.04.14-07.04.22:670][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:670][937]LogFbx: 		[Node Attribute Child 1] taiko_upper arm_l (Type Mesh).
+[2016.04.14-07.04.22:670][937]LogFbx: Dumping Node END [taiko_upper arm_l]
+[2016.04.14-07.04.22:670][937]LogFbx: =================================================
+[2016.04.14-07.04.22:670][937]LogFbx: Dumping Node START [taiko_palm1_l] 
+[2016.04.14-07.04.22:670][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:670][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:670][937]LogFbx: =================================================
+[2016.04.14-07.04.22:670][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:670][937]LogFbx: 		[Node Attribute Child 1] taiko_palm1_l (Type Mesh).
+[2016.04.14-07.04.22:670][937]LogFbx: Dumping Node END [taiko_palm1_l]
+[2016.04.14-07.04.22:670][937]LogFbx: =================================================
+[2016.04.14-07.04.22:670][937]LogFbx: Dumping Node START [taiko_palm2_l] 
+[2016.04.14-07.04.22:670][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:670][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:670][937]LogFbx: =================================================
+[2016.04.14-07.04.22:670][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:670][937]LogFbx: 		[Node Attribute Child 1] taiko_palm2_l (Type Mesh).
+[2016.04.14-07.04.22:670][937]LogFbx: Dumping Node END [taiko_palm2_l]
+[2016.04.14-07.04.22:671][937]LogFbx: =================================================
+[2016.04.14-07.04.22:671][937]LogFbx: Dumping Node START [taiko_head] 
+[2016.04.14-07.04.22:671][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:671][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:671][937]LogFbx: =================================================
+[2016.04.14-07.04.22:671][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:671][937]LogFbx: 		[Node Attribute Child 1] taiko_head (Type Mesh).
+[2016.04.14-07.04.22:671][937]LogFbx: Dumping Node END [taiko_head]
+[2016.04.14-07.04.22:671][937]LogFbx: =================================================
+[2016.04.14-07.04.22:671][937]LogFbx: Dumping Node START [taiko_upper arm_r] 
+[2016.04.14-07.04.22:671][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:671][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:671][937]LogFbx: =================================================
+[2016.04.14-07.04.22:671][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:671][937]LogFbx: 		[Node Attribute Child 1] taiko_upper arm_r (Type Mesh).
+[2016.04.14-07.04.22:671][937]LogFbx: Dumping Node END [taiko_upper arm_r]
+[2016.04.14-07.04.22:671][937]LogFbx: =================================================
+[2016.04.14-07.04.22:671][937]LogFbx: Dumping Node START [taiko_arm_r] 
+[2016.04.14-07.04.22:671][937]LogFbx: 	Total Deformer Count 1561163200.
+[2016.04.14-07.04.22:671][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:671][937]LogFbx: =================================================
+[2016.04.14-07.04.22:671][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:671][937]LogFbx: 		[Node Attribute Child 1] taiko_arm_r (Type Mesh).
+[2016.04.14-07.04.22:671][937]LogFbx: Dumping Node END [taiko_arm_r]
+[2016.04.14-07.04.22:671][937]LogFbx: =================================================
+[2016.04.14-07.04.22:671][937]LogFbx: Dumping Node START [taiko_palm_r] 
+[2016.04.14-07.04.22:671][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:671][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:671][937]LogFbx: =================================================
+[2016.04.14-07.04.22:671][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:671][937]LogFbx: 		[Node Attribute Child 1] taiko_palm_r (Type Mesh).
+[2016.04.14-07.04.22:671][937]LogFbx: Dumping Node END [taiko_palm_r]
+[2016.04.14-07.04.22:671][937]LogFbx: =================================================
+[2016.04.14-07.04.22:671][937]LogFbx: Dumping Node START [taiko_palm_r] 
+[2016.04.14-07.04.22:671][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:671][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:671][937]LogFbx: =================================================
+[2016.04.14-07.04.22:671][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:671][937]LogFbx: 		[Node Attribute Child 1] taiko_palm_r (Type Mesh).
+[2016.04.14-07.04.22:671][937]LogFbx: Dumping Node END [taiko_palm_r]
+[2016.04.14-07.04.22:672][937]LogFbx: =================================================
+[2016.04.14-07.04.22:672][937]LogFbx: Dumping Node START [taiko_thigh_r] 
+[2016.04.14-07.04.22:672][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:672][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:672][937]LogFbx: =================================================
+[2016.04.14-07.04.22:672][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:672][937]LogFbx: 		[Node Attribute Child 1] taiko_thigh_r (Type Mesh).
+[2016.04.14-07.04.22:672][937]LogFbx: Dumping Node END [taiko_thigh_r]
+[2016.04.14-07.04.22:672][937]LogFbx: =================================================
+[2016.04.14-07.04.22:672][937]LogFbx: Dumping Node START [taiko_calf_r] 
+[2016.04.14-07.04.22:672][937]LogFbx: 	Total Deformer Count 1582539584.
+[2016.04.14-07.04.22:672][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.22:672][937]LogFbx: =================================================
+[2016.04.14-07.04.22:672][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.22:672][937]LogFbx: 		[Node Attribute Child 1] taiko_calf_r (Type Mesh).
+[2016.04.14-07.04.22:672][937]LogFbx: Dumping Node END [taiko_calf_r]
+[2016.04.14-07.04.22:682][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_calf_l : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:685][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_body1 : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:687][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_body2 : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:690][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_arm_l : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:692][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_body3 : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:695][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_waist : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:698][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_thigh_l : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:700][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_upper arm_l : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:703][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_palm1_l : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:706][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_palm2_l : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:708][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_head : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:711][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_upper arm_r : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:713][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_arm_r : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:716][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_palm_r : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:718][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_palm_r : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:721][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_thigh_r : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:723][937]LogFbx:Warning: Not valid bind pose for Pose (BIND_POSES) - Node taiko_calf_r : Not all the deformers are stored in this BindPose
+[2016.04.14-07.04.22:723][937]LogFbx:Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2016.04.14-07.04.22:739][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_calf_l : The relative matrices do not match
+[2016.04.14-07.04.22:746][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_body1 : The relative matrices do not match
+[2016.04.14-07.04.22:752][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_body2 : The relative matrices do not match
+[2016.04.14-07.04.22:758][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_arm_l : The relative matrices do not match
+[2016.04.14-07.04.22:765][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_body3 : The relative matrices do not match
+[2016.04.14-07.04.22:774][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_waist : The relative matrices do not match
+[2016.04.14-07.04.22:784][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_thigh_l : The relative matrices do not match
+[2016.04.14-07.04.22:790][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_upper arm_l : The relative matrices do not match
+[2016.04.14-07.04.22:797][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_palm1_l : The relative matrices do not match
+[2016.04.14-07.04.22:804][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_palm2_l : The relative matrices do not match
+[2016.04.14-07.04.22:810][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_head : The relative matrices do not match
+[2016.04.14-07.04.22:817][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_upper arm_r : The relative matrices do not match
+[2016.04.14-07.04.22:823][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_arm_r : The relative matrices do not match
+[2016.04.14-07.04.22:830][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_palm_r : The relative matrices do not match
+[2016.04.14-07.04.22:837][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_palm_r : The relative matrices do not match
+[2016.04.14-07.04.22:843][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_thigh_r : The relative matrices do not match
+[2016.04.14-07.04.22:850][937]LogFbx:Warning: Not valid bind pose for Pose (FbxSDKBindPose) - Node taiko_calf_r : The relative matrices do not match
+[2016.04.14-07.04.22:850][937]LogFbx:Warning: Recreating bind pose failed.
+[2016.04.14-07.04.22:887][937]LogLinker:Warning: ファイル '/Game/Model/01_-_Default' が見つかりません
+[2016.04.14-07.04.22:888][937]LogLinker:Warning: ファイル '/Game/Model/01_-_Default' が見つかりません
+[2016.04.14-07.04.22:898][937]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2016.04.14-07.04.22:921][937]LogFbx: Triangulating skeletal mesh taiko_calf_l
+[2016.04.14-07.04.22:956][937]LogFbx: Triangulating skeletal mesh taiko_body1
+[2016.04.14-07.04.22:993][937]LogFbx: Triangulating skeletal mesh taiko_body2
+[2016.04.14-07.04.23:029][937]LogFbx: Triangulating skeletal mesh taiko_arm_l
+[2016.04.14-07.04.23:063][937]LogFbx: Triangulating skeletal mesh taiko_body3
+[2016.04.14-07.04.23:105][937]LogFbx: Triangulating skeletal mesh taiko_waist
+[2016.04.14-07.04.23:139][937]LogFbx: Triangulating skeletal mesh taiko_thigh_l
+[2016.04.14-07.04.23:165][937]LogFbx: Triangulating skeletal mesh taiko_upper arm_l
+[2016.04.14-07.04.23:197][937]LogFbx: Triangulating skeletal mesh taiko_palm1_l
+[2016.04.14-07.04.23:215][937]LogFbx: Triangulating skeletal mesh taiko_palm2_l
+[2016.04.14-07.04.23:247][937]LogFbx: Triangulating skeletal mesh taiko_head
+[2016.04.14-07.04.23:286][937]LogFbx: Triangulating skeletal mesh taiko_upper arm_r
+[2016.04.14-07.04.23:320][937]LogFbx: Triangulating skeletal mesh taiko_arm_r
+[2016.04.14-07.04.23:356][937]LogFbx: Triangulating skeletal mesh taiko_palm_r
+[2016.04.14-07.04.23:395][937]LogFbx: Triangulating skeletal mesh taiko_palm_r
+[2016.04.14-07.04.23:416][937]LogFbx: Triangulating skeletal mesh taiko_thigh_r
+[2016.04.14-07.04.23:455][937]LogFbx: Triangulating skeletal mesh taiko_calf_r
+[2016.04.14-07.04.23:493][937]LogFbx:Warning: Bones digested - 34  Depth of hierarchy - 16
+[2016.04.14-07.04.23:526][937]LogSkeletalMesh: Chunk 0: 3220 rigid vertices, 0 soft vertices, 17 active bones
+[2016.04.14-07.04.23:529][937]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 2778 triangles
+[2016.04.14-07.04.23:532][937]LogLinker:Warning: ファイル '/Game/Model/oasis_PhysicsAsset' が見つかりません
+[2016.04.14-07.04.23:532][937]LogLinker:Warning: ファイル '/Game/Model/oasis_PhysicsAsset' が見つかりません
+[2016.04.14-07.04.23:532][937]LogUObjectGlobals:Warning: オブジェクト 'Object /Game/Model/oasis_PhysicsAsset.oasis_PhysicsAsset' が見つかりませんでした
+[2016.04.14-07.04.23:540][937]LogLinker:Warning: ファイル '/Game/Model/oasis_Skeleton' が見つかりません
+[2016.04.14-07.04.23:540][937]LogLinker:Warning: ファイル '/Game/Model/oasis_Skeleton' が見つかりません
+[2016.04.14-07.04.23:540][937]LogUObjectGlobals:Warning: オブジェクト 'Object /Game/Model/oasis_Skeleton.oasis_Skeleton' が見つかりませんでした
+[2016.04.14-07.04.23:547][937]LogFbx: =================================================
+[2016.04.14-07.04.23:547][937]LogFbx: Dumping Node START [taiko_calf_l] 
+[2016.04.14-07.04.23:547][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:547][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:547][937]LogFbx: =================================================
+[2016.04.14-07.04.23:547][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:547][937]LogFbx: 		[Node Attribute Child 1] taiko_calf_l (Type Mesh).
+[2016.04.14-07.04.23:547][937]LogFbx: Dumping Node END [taiko_calf_l]
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node START [taiko_body1] 
+[2016.04.14-07.04.23:548][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node Attribute Child 1] taiko_body1 (Type Mesh).
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node END [taiko_body1]
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node START [taiko_body2] 
+[2016.04.14-07.04.23:548][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node Attribute Child 1] taiko_body2 (Type Mesh).
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node END [taiko_body2]
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node START [taiko_arm_l] 
+[2016.04.14-07.04.23:548][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node Attribute Child 1] taiko_arm_l (Type Mesh).
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node END [taiko_arm_l]
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node START [taiko_body3] 
+[2016.04.14-07.04.23:548][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node Attribute Child 1] taiko_body3 (Type Mesh).
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node END [taiko_body3]
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node START [taiko_waist] 
+[2016.04.14-07.04.23:548][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node Attribute Child 1] taiko_waist (Type Mesh).
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node END [taiko_waist]
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node START [taiko_thigh_l] 
+[2016.04.14-07.04.23:548][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node Attribute Child 1] taiko_thigh_l (Type Mesh).
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node END [taiko_thigh_l]
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node START [taiko_upper arm_l] 
+[2016.04.14-07.04.23:548][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node Attribute Child 1] taiko_upper arm_l (Type Mesh).
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node END [taiko_upper arm_l]
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node START [taiko_palm1_l] 
+[2016.04.14-07.04.23:548][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node Attribute Child 1] taiko_palm1_l (Type Mesh).
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node END [taiko_palm1_l]
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:548][937]LogFbx: Dumping Node START [taiko_palm2_l] 
+[2016.04.14-07.04.23:548][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:548][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:548][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node Attribute Child 1] taiko_palm2_l (Type Mesh).
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node END [taiko_palm2_l]
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node START [taiko_head] 
+[2016.04.14-07.04.23:549][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node Attribute Child 1] taiko_head (Type Mesh).
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node END [taiko_head]
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node START [taiko_upper arm_r] 
+[2016.04.14-07.04.23:549][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node Attribute Child 1] taiko_upper arm_r (Type Mesh).
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node END [taiko_upper arm_r]
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node START [taiko_arm_r] 
+[2016.04.14-07.04.23:549][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node Attribute Child 1] taiko_arm_r (Type Mesh).
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node END [taiko_arm_r]
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node START [taiko_palm_r] 
+[2016.04.14-07.04.23:549][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node Attribute Child 1] taiko_palm_r (Type Mesh).
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node END [taiko_palm_r]
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node START [taiko_palm_r] 
+[2016.04.14-07.04.23:549][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node Attribute Child 1] taiko_palm_r (Type Mesh).
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node END [taiko_palm_r]
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node START [taiko_thigh_r] 
+[2016.04.14-07.04.23:549][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node Attribute Child 1] taiko_thigh_r (Type Mesh).
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node END [taiko_thigh_r]
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node START [taiko_calf_r] 
+[2016.04.14-07.04.23:549][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:549][937]LogFbx: =================================================
+[2016.04.14-07.04.23:549][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:549][937]LogFbx: 		[Node Attribute Child 1] taiko_calf_r (Type Mesh).
+[2016.04.14-07.04.23:549][937]LogFbx: Dumping Node END [taiko_calf_r]
+[2016.04.14-07.04.23:555][937]LogFbx: =================================================
+[2016.04.14-07.04.23:555][937]LogFbx: Dumping Node START [taiko_calf_l] 
+[2016.04.14-07.04.23:555][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:555][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:555][937]LogFbx: =================================================
+[2016.04.14-07.04.23:555][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:555][937]LogFbx: 		[Node Attribute Child 1] taiko_calf_l (Type Mesh).
+[2016.04.14-07.04.23:555][937]LogFbx: Dumping Node END [taiko_calf_l]
+[2016.04.14-07.04.23:556][937]LogFbx: =================================================
+[2016.04.14-07.04.23:556][937]LogFbx: Dumping Node START [taiko_body1] 
+[2016.04.14-07.04.23:556][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:556][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:556][937]LogFbx: =================================================
+[2016.04.14-07.04.23:556][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:556][937]LogFbx: 		[Node Attribute Child 1] taiko_body1 (Type Mesh).
+[2016.04.14-07.04.23:556][937]LogFbx: Dumping Node END [taiko_body1]
+[2016.04.14-07.04.23:556][937]LogFbx: =================================================
+[2016.04.14-07.04.23:556][937]LogFbx: Dumping Node START [taiko_body2] 
+[2016.04.14-07.04.23:556][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:556][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:556][937]LogFbx: =================================================
+[2016.04.14-07.04.23:556][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:556][937]LogFbx: 		[Node Attribute Child 1] taiko_body2 (Type Mesh).
+[2016.04.14-07.04.23:556][937]LogFbx: Dumping Node END [taiko_body2]
+[2016.04.14-07.04.23:556][937]LogFbx: =================================================
+[2016.04.14-07.04.23:556][937]LogFbx: Dumping Node START [taiko_arm_l] 
+[2016.04.14-07.04.23:556][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:556][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:556][937]LogFbx: =================================================
+[2016.04.14-07.04.23:556][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:556][937]LogFbx: 		[Node Attribute Child 1] taiko_arm_l (Type Mesh).
+[2016.04.14-07.04.23:556][937]LogFbx: Dumping Node END [taiko_arm_l]
+[2016.04.14-07.04.23:557][937]LogFbx: =================================================
+[2016.04.14-07.04.23:557][937]LogFbx: Dumping Node START [taiko_body3] 
+[2016.04.14-07.04.23:557][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:557][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:557][937]LogFbx: =================================================
+[2016.04.14-07.04.23:557][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:557][937]LogFbx: 		[Node Attribute Child 1] taiko_body3 (Type Mesh).
+[2016.04.14-07.04.23:557][937]LogFbx: Dumping Node END [taiko_body3]
+[2016.04.14-07.04.23:557][937]LogFbx: =================================================
+[2016.04.14-07.04.23:557][937]LogFbx: Dumping Node START [taiko_waist] 
+[2016.04.14-07.04.23:557][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:557][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:557][937]LogFbx: =================================================
+[2016.04.14-07.04.23:557][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:557][937]LogFbx: 		[Node Attribute Child 1] taiko_waist (Type Mesh).
+[2016.04.14-07.04.23:557][937]LogFbx: Dumping Node END [taiko_waist]
+[2016.04.14-07.04.23:557][937]LogFbx: =================================================
+[2016.04.14-07.04.23:557][937]LogFbx: Dumping Node START [taiko_thigh_l] 
+[2016.04.14-07.04.23:557][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:557][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:557][937]LogFbx: =================================================
+[2016.04.14-07.04.23:557][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:557][937]LogFbx: 		[Node Attribute Child 1] taiko_thigh_l (Type Mesh).
+[2016.04.14-07.04.23:557][937]LogFbx: Dumping Node END [taiko_thigh_l]
+[2016.04.14-07.04.23:558][937]LogFbx: =================================================
+[2016.04.14-07.04.23:558][937]LogFbx: Dumping Node START [taiko_upper arm_l] 
+[2016.04.14-07.04.23:558][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:558][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:558][937]LogFbx: =================================================
+[2016.04.14-07.04.23:558][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:558][937]LogFbx: 		[Node Attribute Child 1] taiko_upper arm_l (Type Mesh).
+[2016.04.14-07.04.23:558][937]LogFbx: Dumping Node END [taiko_upper arm_l]
+[2016.04.14-07.04.23:558][937]LogFbx: =================================================
+[2016.04.14-07.04.23:558][937]LogFbx: Dumping Node START [taiko_palm1_l] 
+[2016.04.14-07.04.23:558][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:558][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:558][937]LogFbx: =================================================
+[2016.04.14-07.04.23:558][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:558][937]LogFbx: 		[Node Attribute Child 1] taiko_palm1_l (Type Mesh).
+[2016.04.14-07.04.23:558][937]LogFbx: Dumping Node END [taiko_palm1_l]
+[2016.04.14-07.04.23:558][937]LogFbx: =================================================
+[2016.04.14-07.04.23:558][937]LogFbx: Dumping Node START [taiko_palm2_l] 
+[2016.04.14-07.04.23:558][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:558][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:558][937]LogFbx: =================================================
+[2016.04.14-07.04.23:558][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:558][937]LogFbx: 		[Node Attribute Child 1] taiko_palm2_l (Type Mesh).
+[2016.04.14-07.04.23:558][937]LogFbx: Dumping Node END [taiko_palm2_l]
+[2016.04.14-07.04.23:559][937]LogFbx: =================================================
+[2016.04.14-07.04.23:559][937]LogFbx: Dumping Node START [taiko_head] 
+[2016.04.14-07.04.23:559][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:559][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:559][937]LogFbx: =================================================
+[2016.04.14-07.04.23:559][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:559][937]LogFbx: 		[Node Attribute Child 1] taiko_head (Type Mesh).
+[2016.04.14-07.04.23:559][937]LogFbx: Dumping Node END [taiko_head]
+[2016.04.14-07.04.23:559][937]LogFbx: =================================================
+[2016.04.14-07.04.23:559][937]LogFbx: Dumping Node START [taiko_upper arm_r] 
+[2016.04.14-07.04.23:559][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:559][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:559][937]LogFbx: =================================================
+[2016.04.14-07.04.23:559][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:559][937]LogFbx: 		[Node Attribute Child 1] taiko_upper arm_r (Type Mesh).
+[2016.04.14-07.04.23:559][937]LogFbx: Dumping Node END [taiko_upper arm_r]
+[2016.04.14-07.04.23:559][937]LogFbx: =================================================
+[2016.04.14-07.04.23:559][937]LogFbx: Dumping Node START [taiko_arm_r] 
+[2016.04.14-07.04.23:559][937]LogFbx: 	Total Deformer Count 1783264128.
+[2016.04.14-07.04.23:559][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:559][937]LogFbx: =================================================
+[2016.04.14-07.04.23:560][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:560][937]LogFbx: 		[Node Attribute Child 1] taiko_arm_r (Type Mesh).
+[2016.04.14-07.04.23:560][937]LogFbx: Dumping Node END [taiko_arm_r]
+[2016.04.14-07.04.23:560][937]LogFbx: =================================================
+[2016.04.14-07.04.23:560][937]LogFbx: Dumping Node START [taiko_palm_r] 
+[2016.04.14-07.04.23:560][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:560][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:560][937]LogFbx: =================================================
+[2016.04.14-07.04.23:560][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:560][937]LogFbx: 		[Node Attribute Child 1] taiko_palm_r (Type Mesh).
+[2016.04.14-07.04.23:560][937]LogFbx: Dumping Node END [taiko_palm_r]
+[2016.04.14-07.04.23:560][937]LogFbx: =================================================
+[2016.04.14-07.04.23:560][937]LogFbx: Dumping Node START [taiko_palm_r] 
+[2016.04.14-07.04.23:560][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:560][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:560][937]LogFbx: =================================================
+[2016.04.14-07.04.23:560][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:560][937]LogFbx: 		[Node Attribute Child 1] taiko_palm_r (Type Mesh).
+[2016.04.14-07.04.23:560][937]LogFbx: Dumping Node END [taiko_palm_r]
+[2016.04.14-07.04.23:561][937]LogFbx: =================================================
+[2016.04.14-07.04.23:561][937]LogFbx: Dumping Node START [taiko_thigh_r] 
+[2016.04.14-07.04.23:561][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:561][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:561][937]LogFbx: =================================================
+[2016.04.14-07.04.23:561][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:561][937]LogFbx: 		[Node Attribute Child 1] taiko_thigh_r (Type Mesh).
+[2016.04.14-07.04.23:561][937]LogFbx: Dumping Node END [taiko_thigh_r]
+[2016.04.14-07.04.23:561][937]LogFbx: =================================================
+[2016.04.14-07.04.23:561][937]LogFbx: Dumping Node START [taiko_calf_r] 
+[2016.04.14-07.04.23:561][937]LogFbx: 	Total Deformer Count 1359324528.
+[2016.04.14-07.04.23:561][937]LogFbx: 		[Node 1]  (Type Skin).
+[2016.04.14-07.04.23:561][937]LogFbx: =================================================
+[2016.04.14-07.04.23:561][937]LogFbx: 	Attribute () Type (4).
+[2016.04.14-07.04.23:561][937]LogFbx: 		[Node Attribute Child 1] taiko_calf_r (Type Mesh).
+[2016.04.14-07.04.23:561][937]LogFbx: Dumping Node END [taiko_calf_r]
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(0) taiko_Point014
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(1) taiko_waist_Bone
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(2) taiko_Point022
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(3) taiko_thigh_r_Bone
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(4) taiko_Point021
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(5) taiko_calf_l_Bone001
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(6) taiko_Point006
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(7) taiko_thigh_l_Bone
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(8) taiko_Point005
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(9) taiko_calf_l_Bone
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(10) taiko_Point007
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(11) taiko_body_Bone_3
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(12) taiko_Point015
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(13) taiko_body_Bone_2
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(14) taiko_Point013
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(15) taiko_body_Bone_1
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(16) taiko_Point017
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(17) taiko_upper arm_r_Bone
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(18) taiko_Point018
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(19) taiko_arm_r_Bone
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(20) taiko_Point020
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(21) taiko_palm_r_Bone2
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(22) taiko_Point019
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(23) taiko_palm_r_Bone1
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(24) taiko_Point001
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(25) taiko_upper arm_l_Bone
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(26) taiko_Point003
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(27) taiko_arm_l_Bone
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(28) taiko_Point016
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(29) taiko_palm_l_Bone2
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(30) taiko_Point004
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(31) taiko_palm_l_Bone1
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(32) taiko_head_Bone_1
+[2016.04.14-07.04.23:563][937]LogFbx: SortedLinks :(33) taiko_head_Bone_2
+[2016.04.14-07.04.23:567][937]LogFbx: Parsing AnimStack Take 001
+[2016.04.14-07.04.23:587][937]LogLinker:Warning: ファイル '/Game/Model/oasis_Anim' が見つかりません
+[2016.04.14-07.04.23:587][937]LogLinker:Warning: ファイル '/Game/Model/oasis_Anim' が見つかりません
+[2016.04.14-07.04.23:587][937]LogUObjectGlobals:Warning: オブジェクト 'Object /Game/Model/oasis_Anim.oasis_Anim' が見つかりませんでした
+[2016.04.14-07.04.24:899][937]FBXImport:Warning: 警告 警告：このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
+[2016.04.14-07.04.24:899][937]FBXImport:Warning: 警告 バインドポーズが見つかりませんでした。バインドポーズに時間0を使用します 
+[2016.04.14-07.04.24:976][938]LogMaterial:Warning: Material /Game/Model/01_-_Default.01_-_Default needed to have new flag set bUsedWithSkeletalMesh !
+[2016.04.14-07.04.24:996][938]LogMaterial: Missing cached shader map for material 01_-_Default, compiling. 
+[2016.04.14-07.04.25:004][938]LogMaterial: 0.000508 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.14-07.04.30:024][274]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.04.14-07.04.30:145][275]LogRenderer: Reallocating scene render targets to support 1904x1956 (Frame:43868).
+[2016.04.14-07.04.30:181][277]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 621/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.04.35:182][498]LogRenderer: Reallocating scene render targets to support 1904x1992 (Frame:44451).
+[2016.04.14-07.04.35:182][498]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.14-07.06.08:121][981]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 618/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.08.24:128][947]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 618/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.08.50:724][886]LogEditorTransaction: Undo ボーンを移動
+[2016.04.14-07.08.51:261][910]LogEditorTransaction: Undo ボーンを移動
+[2016.04.14-07.08.52:675][ 17]LogEditorTransaction: Undo ボーンを回転
+[2016.04.14-07.08.53:372][ 70]LogEditorTransaction: Undo Import Animations を編集
+[2016.04.14-07.08.53:597][ 87]LogEditorTransaction: Undo ノードの名前を変更する
+[2016.04.14-07.08.53:619][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-07.08.55:698][245]LogEditorTransaction: Redo ノードの名前を変更する
+[2016.04.14-07.08.56:144][277]LogEditorTransaction: Redo Import Animations を編集
+[2016.04.14-07.09.25:164][788]LogSavePackage: Save=17.434458ms
+[2016.04.14-07.09.25:164][788]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/GameLevel_Auto2599953C24DE1C2C424AD2DB8F916BC1B.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Level/GameLevel_Auto2.umap'
+[2016.04.14-07.09.25:167][788]LogSavePackage: Total save time: 31.515371ms
+[2016.04.14-07.09.25:167][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Level/GameLevel_Auto2.umap
+[2016.04.14-07.09.25:169][788]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/GameLevel' took 0.073
+[2016.04.14-07.09.25:170][788]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.073
+[2016.04.14-07.09.25:175][788]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Enemy] ([1] browsable assets)...
+[2016.04.14-07.09.25:207][788]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Enemy.Enemy]
+[2016.04.14-07.09.25:207][788]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Enemy]
+[2016.04.14-07.09.25:207][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Enemy" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/Enemy_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.04.14-07.09.25:390][788]LogSavePackage: Save=165.148987ms
+[2016.04.14-07.09.25:390][788]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Enemy_Auto2188E3B35480124C9D9794B8FD4EA7417.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/Enemy_Auto2.uasset'
+[2016.04.14-07.09.25:393][788]LogSavePackage: Total save time: 181.427844ms
+[2016.04.14-07.09.25:393][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/Enemy_Auto2.uasset
+[2016.04.14-07.09.25:397][788]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Model/oasis] ([1] browsable assets)...
+[2016.04.14-07.09.25:425][788]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Model/oasis.oasis]
+[2016.04.14-07.09.25:425][788]OBJ SavePackage: Finished generating thumbnails for package [/Game/Model/oasis]
+[2016.04.14-07.09.25:425][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/oasis" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/oasis_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.04.14-07.09.25:443][788]LogSavePackage: Save=14.027731ms
+[2016.04.14-07.09.25:443][788]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/oasis_Auto2DFEA1BB0492114C5752B58BFA299D153.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/oasis_Auto2.uasset'
+[2016.04.14-07.09.25:446][788]LogSavePackage: Total save time: 16.902927ms
+[2016.04.14-07.09.25:446][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/oasis_Auto2.uasset
+[2016.04.14-07.09.25:452][788]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Model/01_-_Default] ([1] browsable assets)...
+[2016.04.14-07.09.25:482][788]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Model/01_-_Default.01_-_Default]
+[2016.04.14-07.09.25:482][788]OBJ SavePackage: Finished generating thumbnails for package [/Game/Model/01_-_Default]
+[2016.04.14-07.09.25:497][788]LogSavePackage: Save=11.603241ms
+[2016.04.14-07.09.25:497][788]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/01_-_Default_Auto2A480F74942213374C5122A9E4946C258.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/01_-_Default_Auto2.uasset'
+[2016.04.14-07.09.25:499][788]LogSavePackage: Total save time: 14.040951ms
+[2016.04.14-07.09.25:499][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/01_-_Default_Auto2.uasset
+[2016.04.14-07.09.25:504][788]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Model/oasis_PhysicsAsset] ([1] browsable assets)...
+[2016.04.14-07.09.25:504][788]OBJ SavePackage: Finished generating thumbnails for package [/Game/Model/oasis_PhysicsAsset]
+[2016.04.14-07.09.25:521][788]LogSavePackage: Save=13.093571ms
+[2016.04.14-07.09.25:521][788]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/oasis_PhysicsAsset_Auto24BC2B8B245AA0975146A55A23ECBEC09.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/oasis_PhysicsAsset_Auto2.uasset'
+[2016.04.14-07.09.25:523][788]LogSavePackage: Total save time: 15.451353ms
+[2016.04.14-07.09.25:523][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/oasis_PhysicsAsset_Auto2.uasset
+[2016.04.14-07.09.25:528][788]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Model/oasis_Skeleton] ([1] browsable assets)...
+[2016.04.14-07.09.25:528][788]OBJ SavePackage: Finished generating thumbnails for package [/Game/Model/oasis_Skeleton]
+[2016.04.14-07.09.25:535][788]LogSavePackage: Save=3.334313ms
+[2016.04.14-07.09.25:535][788]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/oasis_Skeleton_Auto2E26BA29944E15D3D69637FB0AB245829.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/oasis_Skeleton_Auto2.uasset'
+[2016.04.14-07.09.25:537][788]LogSavePackage: Total save time: 5.531348ms
+[2016.04.14-07.09.25:537][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/oasis_Skeleton_Auto2.uasset
+[2016.04.14-07.09.25:541][788]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Model/oasis_Anim] ([1] browsable assets)...
+[2016.04.14-07.09.25:567][788]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Model/oasis_Anim.oasis_Anim]
+[2016.04.14-07.09.25:567][788]OBJ SavePackage: Finished generating thumbnails for package [/Game/Model/oasis_Anim]
+[2016.04.14-07.09.25:567][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/oasis_Anim" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/oasis_Anim_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.04.14-07.09.25:583][788]LogSavePackage: Save=11.858940ms
+[2016.04.14-07.09.25:583][788]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/oasis_Anim_Auto2A1BF5BB54082022CF5FDED94F4E5C5C1.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/oasis_Anim_Auto2.uasset'
+[2016.04.14-07.09.25:585][788]LogSavePackage: Total save time: 14.594119ms
+[2016.04.14-07.09.25:585][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/oasis_Anim_Auto2.uasset
+[2016.04.14-07.09.25:585][788]LogFileHelpers: Auto-saving content packages took 0.415
+[2016.04.14-07.09.25:614][790]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 618/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.09.53:294][875]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 618/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.11.27:965][269]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 618/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.11.47:513][734]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 618/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.12.07:817][205]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 618/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.13.13:122][190]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.13.14:127][194]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 618/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.13.32:167][947]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.17.30:645][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E29B64F7E0
+[2016.04.14-07.17.31:951][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.14-07.17.32:028][166]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.14-07.17.32:488][166]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2016.04.14-07.17.40:043][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2D2C4A480
+[2016.04.14-07.17.40:052][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E26AA0F060
+[2016.04.14-07.17.40:055][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E20F947560
+[2016.04.14-07.17.40:058][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E219EA3E20
+[2016.04.14-07.17.40:059][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E21502A8E0
+[2016.04.14-07.17.40:059][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E29920EB60
+[2016.04.14-07.17.44:372][375]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 586/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.17.51:179][781]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2016.04.14-07.18.04:025][264]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimMontage
+[2016.04.14-07.18.23:680][881]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 618/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.23.40:577][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2B5B0FEC0
+[2016.04.14-07.23.40:583][342]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/GameLevel' took 0.035
+[2016.04.14-07.23.40:589][342]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Model/LoversMont] ([1] browsable assets)...
+[2016.04.14-07.23.40:623][342]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Model/LoversMont.LoversMont]
+[2016.04.14-07.23.40:623][342]OBJ SavePackage: Finished generating thumbnails for package [/Game/Model/LoversMont]
+[2016.04.14-07.23.40:623][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/LoversMont" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/LoversMont_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.04.14-07.23.40:639][342]LogSavePackage: Save=12.813533ms
+[2016.04.14-07.23.40:639][342]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/LoversMont_Auto3F7E493D04C0D6E1718A99E9954E20A0C.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/LoversMont_Auto3.uasset'
+[2016.04.14-07.23.40:641][342]LogSavePackage: Total save time: 14.695372ms
+[2016.04.14-07.23.40:641][342]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/LoversMont_Auto3.uasset
+[2016.04.14-07.23.40:641][342]LogFileHelpers: Auto-saving content packages took 0.057
+[2016.04.14-07.23.40:821][344]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 617/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.24.04:853][418]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 617/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.24.18:079][675]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 617/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.24.39:999][229]LogEditorTransaction: Undo スロットの追加
+[2016.04.14-07.24.59:830][774]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 617/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.26.33:683][907]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 617/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.26.35:598][995]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2016.04.14-07.26.40:247][149]LogBlueprintUserMessages: [ThirdPersonCharacter_C_9] Hello
+[2016.04.14-07.26.40:659][152]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 589/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.27.15:813][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-07.27.47:059][799]BlueprintLog: New page: Lovers をコンパイル
+[2016.04.14-07.27.47:115][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E20F3D7100
+[2016.04.14-07.27.47:124][799]BlueprintEditorCompileResults: 情報 [2371.92] Lovers のコンパイルに成功しました！  [ 65 ミリ秒]
+[2016.04.14-07.28.32:314][ 63]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 589/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.29.05:102][932]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 589/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.29.21:471][741]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2016.04.14-07.29.30:254][368]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimMontage
+[2016.04.14-07.29.48:936][647]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimMontage
+[2016.04.14-07.33.41:395][ 52]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-07.33.41:463][ 52]LogSavePackage: Save=18.794083ms
+[2016.04.14-07.33.41:463][ 52]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/GameLevel_Auto4A236E95F486B5C2F9A8D718555A9C132.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Level/GameLevel_Auto4.umap'
+[2016.04.14-07.33.41:466][ 52]LogSavePackage: Total save time: 30.855838ms
+[2016.04.14-07.33.41:466][ 52]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Level/GameLevel_Auto4.umap
+[2016.04.14-07.33.41:468][ 52]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/GameLevel' took 0.074
+[2016.04.14-07.33.41:468][ 52]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.074
+[2016.04.14-07.33.41:474][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Lovers] ([1] browsable assets)...
+[2016.04.14-07.33.41:504][ 52]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Lovers.Lovers]
+[2016.04.14-07.33.41:504][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Lovers]
+[2016.04.14-07.33.41:504][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Lovers" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/Lovers_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.04.14-07.33.41:533][ 52]LogSavePackage: Save=19.238777ms
+[2016.04.14-07.33.41:533][ 52]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Lovers_Auto4EAEDCAEF4847B213A8700CBBBCA94D94.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/Lovers_Auto4.uasset'
+[2016.04.14-07.33.41:536][ 52]LogSavePackage: Total save time: 28.674729ms
+[2016.04.14-07.33.41:536][ 52]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/Lovers_Auto4.uasset
+[2016.04.14-07.33.41:541][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Model/LoversMont] ([1] browsable assets)...
+[2016.04.14-07.33.41:564][ 52]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/Model/LoversMont.LoversMont]
+[2016.04.14-07.33.41:564][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/Model/LoversMont]
+[2016.04.14-07.33.41:564][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/LoversMont" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/LoversMont_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.04.14-07.33.41:579][ 52]LogSavePackage: Save=10.543784ms
+[2016.04.14-07.33.41:579][ 52]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/LoversMont_Auto47DC7C0294D9647E41F90DA8A3F52DB70.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/LoversMont_Auto4.uasset'
+[2016.04.14-07.33.41:580][ 52]LogSavePackage: Total save time: 12.304537ms
+[2016.04.14-07.33.41:580][ 52]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/Model/LoversMont_Auto4.uasset
+[2016.04.14-07.33.41:584][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/LoversAnimBP] ([1] browsable assets)...
+[2016.04.14-07.33.41:602][ 52]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/BluePrints/LoversAnimBP.LoversAnimBP]
+[2016.04.14-07.33.41:602][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/LoversAnimBP]
+[2016.04.14-07.33.41:622][ 52]LogSavePackage: Save=15.215487ms
+[2016.04.14-07.33.41:622][ 52]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/LoversAnimBP_Auto4BA332F4D4026C051A58FDDBD71584FDB.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/LoversAnimBP_Auto4.uasset'
+[2016.04.14-07.33.41:624][ 52]LogSavePackage: Total save time: 18.374626ms
+[2016.04.14-07.33.41:624][ 52]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/LoversAnimBP_Auto4.uasset
+[2016.04.14-07.33.41:625][ 52]LogFileHelpers: Auto-saving content packages took 0.155
+[2016.04.14-07.33.41:679][ 54]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 621/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.34.05:014][125]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 592/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.34.28:875][355]BlueprintLog: New page: Lovers をコンパイル
+[2016.04.14-07.34.28:944][355]BlueprintEditorCompileResults: 情報 [2773.74] Lovers のコンパイルに成功しました！  [ 68 ミリ秒]
+[2016.04.14-07.34.29:753][431]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.14-07.34.29:764][431]LogPlayLevel: [PlayLevel] Compiling Enemy before play...
+[2016.04.14-07.34.29:798][431]LogBlueprint:Error: [compiler Enemy] エラー このブループリントは ThirdPersonCharacter_C ではありません。 ' ターゲット ' に接続が必要です。
+[2016.04.14-07.34.29:863][431]LogBlueprint:Warning: [compiler Enemy] 警告 [2774.66] Enemy のコンパイルに失敗しました。 1 致命的な問題 0 警告 [ 74 ミリ秒]
+[2016.04.14-07.34.29:863][431]LogBlueprint:Warning: [compiler Enemy] 警告 [2774.66] Enemy のコンパイルに失敗しました。 1 致命的な問題 1 警告 [ 0 ミリ秒]
+[2016.04.14-07.34.29:864][431]LogBlueprint:Warning: [compiler Enemy] 警告 [2774.66] Enemy のコンパイルに失敗しました。 1 致命的な問題 2 警告 [ 0 ミリ秒]
+[2016.04.14-07.34.29:864][431]LogBlueprint:Warning: [compiler Enemy] 警告 [2774.66] Enemy のコンパイルに失敗しました。 1 致命的な問題 3 警告 [ 0 ミリ秒]
+[2016.04.14-07.34.29:867][431]LogBlueprint:Warning: [compiler Enemy] 警告 [2774.66] Enemy のコンパイルに失敗しました。 1 致命的な問題 4 警告 [ 3 ミリ秒]
+[2016.04.14-07.34.29:867][431]LogBlueprint:Warning: [compiler Enemy] 警告 [2774.66] Enemy のコンパイルに失敗しました。 1 致命的な問題 5 警告 [ 0 ミリ秒]
+[2016.04.14-07.34.29:867][431]LogPlayLevel: PlayLevel: Blueprint regeneration took 114 ms (1 blueprints)
+[2016.04.14-07.34.29:892][431]BlueprintLog: 情報 ブループリント Enemy のコンパイルに失敗しました
+[2016.04.14-07.34.33:399][562]BlueprintLog: New page: Lovers をコンパイル
+[2016.04.14-07.34.33:462][562]BlueprintEditorCompileResults: 情報 [2778.26] Lovers のコンパイルに成功しました！  [ 62 ミリ秒]
+[2016.04.14-07.34.40:089][119]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.14-07.34.40:099][119]LogPlayLevel: [PlayLevel] Compiling Enemy before play...
+[2016.04.14-07.34.40:172][119]LogPlayLevel: PlayLevel: Blueprint regeneration took 83 ms (1 blueprints)
+[2016.04.14-07.34.40:197][119]PIE: New page: PIEセッション: GameLevel (2016/04/15 1:34:40)
+[2016.04.14-07.34.40:197][119]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-07.34.40:199][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001810s)
+[2016.04.14-07.34.40:200][119]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-07.34.40:200][119]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2016.04.14-07.34.40:200][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002843s)
+[2016.04.14-07.34.40:225][119]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-07.34.40:229][119]LogInit: FAudioDevice initialized.
+[2016.04.14-07.34.40:262][119]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-07.34.40:265][119]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-16.34.40
+[2016.04.14-07.34.40:265][119]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-07.34.40:265][119]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-07.34.40:265][119]LogWorld: Bringing up level for play took: 0.002149
+[2016.04.14-07.34.40:267][119]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] Hello
+[2016.04.14-07.34.40:273][119]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel -0.249のプレイ イン エディタの開始時間
+[2016.04.14-07.34.47:386][753]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] Hello
+[2016.04.14-07.34.47:386][753]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] ハグできるよ
+[2016.04.14-07.34.47:431][757]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.47:939][803]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.48:447][848]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.48:953][893]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.49:453][937]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.49:954][981]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.50:022][987]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] Hello
+[2016.04.14-07.34.50:022][987]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] ハグできるよ
+[2016.04.14-07.34.50:464][ 25]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.50:970][ 67]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.51:479][109]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.51:985][150]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.52:486][191]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.52:988][232]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.53:494][274]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.53:998][316]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.54:498][356]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.55:007][398]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.55:519][441]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.56:021][483]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.57:414][598]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.34.57:916][640]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.35.00:951][893]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.35.01:623][953]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.35.02:093][995]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] Hello
+[2016.04.14-07.35.02:093][995]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] ハグできるよ
+[2016.04.14-07.35.02:126][998]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.35.02:192][  4]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] Hello
+[2016.04.14-07.35.02:192][  4]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] ハグできるよ
+[2016.04.14-07.35.02:303][ 14]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] Hello
+[2016.04.14-07.35.02:303][ 14]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] ハグできるよ
+[2016.04.14-07.35.02:627][ 42]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.35.03:128][ 86]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.35.04:338][194]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] Hello
+[2016.04.14-07.35.04:338][194]LogBlueprintUserMessages: [ThirdPersonCharacter_C_10] ハグできるよ
+[2016.04.14-07.35.04:679][224]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.35.05:188][269]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.35.05:687][314]LogBlueprintUserMessages: [Enemy_C_1] ヒャッハー！！！
+[2016.04.14-07.35.05:946][317]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E217933EC0
+[2016.04.14-07.35.40:692][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/GameLevel" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Level/GameLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.14-07.35.40:742][ 87]LogSavePackage: Save=17.778795ms
+[2016.04.14-07.35.40:742][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/GameLevelBD6873A74DD639EBF17EEC8D589C4B4C.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Level/GameLevel.umap'
+[2016.04.14-07.35.40:747][ 87]LogSavePackage: Total save time: 29.178616ms
+[2016.04.14-07.35.40:747][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Level/GameLevel.umap
+[2016.04.14-07.35.40:766][ 87]LogFileHelpers: Saving map 'GameLevel' took 0.363
+[2016.04.14-07.35.40:785][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Enemy" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Enemy.uasset" SILENT=true
+[2016.04.14-07.35.40:957][ 87]LogSavePackage: Save=161.082733ms
+[2016.04.14-07.35.40:957][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Enemy166CF5BE4B435B4861D32DB7C57154D7.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Enemy.uasset'
+[2016.04.14-07.35.40:963][ 87]LogSavePackage: Total save time: 173.899572ms
+[2016.04.14-07.35.40:963][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Enemy.uasset
+[2016.04.14-07.35.40:969][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/ThirdPersonCharacter" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/ThirdPersonCharacter.uasset" SILENT=true
+[2016.04.14-07.35.41:192][ 87]LogSavePackage: Save=207.154968ms
+[2016.04.14-07.35.41:192][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/ThirdPersonCharacterA2922CF64D38350378DA1E8E5554CA5A.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/ThirdPersonCharacter.uasset'
+[2016.04.14-07.35.41:197][ 87]LogSavePackage: Total save time: 225.158814ms
+[2016.04.14-07.35.41:198][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/ThirdPersonCharacter.uasset
+[2016.04.14-07.35.41:214][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Lovers" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Lovers.uasset" SILENT=true
+[2016.04.14-07.35.41:242][ 87]LogSavePackage: Save=19.647116ms
+[2016.04.14-07.35.41:242][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/LoversB433929246E06B37191224BF9B87B57E.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Lovers.uasset'
+[2016.04.14-07.35.41:249][ 87]LogSavePackage: Total save time: 30.943878ms
+[2016.04.14-07.35.41:249][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Lovers.uasset
+[2016.04.14-07.35.41:270][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/oasis" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis.uasset" SILENT=true
+[2016.04.14-07.35.41:290][ 87]LogSavePackage: Save=14.900295ms
+[2016.04.14-07.35.41:290][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/oasisEBB9C585480BB1A8A1D7528FE5571DAD.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis.uasset'
+[2016.04.14-07.35.41:295][ 87]LogSavePackage: Total save time: 19.912131ms
+[2016.04.14-07.35.41:295][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis.uasset
+[2016.04.14-07.35.41:317][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/01_-_Default" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/01_-_Default.uasset" SILENT=true
+[2016.04.14-07.35.41:332][ 87]LogSavePackage: Save=10.771239ms
+[2016.04.14-07.35.41:332][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/01_-_Default5C44ECF84A3EB4F7E167E5AC4BC55F4B.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/01_-_Default.uasset'
+[2016.04.14-07.35.41:338][ 87]LogSavePackage: Total save time: 16.944993ms
+[2016.04.14-07.35.41:338][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/01_-_Default.uasset
+[2016.04.14-07.35.41:344][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/oasis_PhysicsAsset" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis_PhysicsAsset.uasset" SILENT=true
+[2016.04.14-07.35.41:364][ 87]LogSavePackage: Save=13.553590ms
+[2016.04.14-07.35.41:364][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/oasis_PhysicsAsset1DFC7DC647603CA5120548A8E73F2E12.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis_PhysicsAsset.uasset'
+[2016.04.14-07.35.41:369][ 87]LogSavePackage: Total save time: 18.485200ms
+[2016.04.14-07.35.41:369][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis_PhysicsAsset.uasset
+[2016.04.14-07.35.41:376][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/oasis_Skeleton" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis_Skeleton.uasset" SILENT=true
+[2016.04.14-07.35.41:384][ 87]LogSavePackage: Save=4.105318ms
+[2016.04.14-07.35.41:384][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/oasis_Skeleton3238F6214CAE229E741BF7A0ABCFD010.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis_Skeleton.uasset'
+[2016.04.14-07.35.41:389][ 87]LogSavePackage: Total save time: 9.114750ms
+[2016.04.14-07.35.41:389][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis_Skeleton.uasset
+[2016.04.14-07.35.41:407][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/oasis_Anim" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis_Anim.uasset" SILENT=true
+[2016.04.14-07.35.41:424][ 87]LogSavePackage: Save=12.703861ms
+[2016.04.14-07.35.41:424][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/oasis_AnimAC922D084151C656662CA9B18A39DD64.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis_Anim.uasset'
+[2016.04.14-07.35.41:428][ 87]LogSavePackage: Total save time: 17.308559ms
+[2016.04.14-07.35.41:428][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/oasis_Anim.uasset
+[2016.04.14-07.35.41:446][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/LoversMont" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/LoversMont.uasset" SILENT=true
+[2016.04.14-07.35.41:460][ 87]LogSavePackage: Save=10.577737ms
+[2016.04.14-07.35.41:460][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/LoversMont36825F514DAB71F5A35D49820E57F3C0.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/LoversMont.uasset'
+[2016.04.14-07.35.41:466][ 87]LogSavePackage: Total save time: 15.911680ms
+[2016.04.14-07.35.41:466][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/LoversMont.uasset
+[2016.04.14-07.35.41:489][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LoversAnimBP" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/LoversAnimBP.uasset" SILENT=true
+[2016.04.14-07.35.41:506][ 87]LogSavePackage: Save=13.979355ms
+[2016.04.14-07.35.41:506][ 87]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/LoversAnimBPE38FC6824EBF3DFEC7F075B6B5DA0EA3.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/LoversAnimBP.uasset'
+[2016.04.14-07.35.41:512][ 87]LogSavePackage: Total save time: 19.549467ms
+[2016.04.14-07.35.41:512][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/LoversAnimBP.uasset
+[2016.04.14-07.36.43:863][339]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 644/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.42.33:828][811]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 645/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.45.40:979][613]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-07.45.41:009][613]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/GameLevel' took 0.030
+[2016.04.14-07.45.41:013][613]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/LoversAnimBP] ([1] browsable assets)...
+[2016.04.14-07.45.41:045][613]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/BluePrints/LoversAnimBP.LoversAnimBP]
+[2016.04.14-07.45.41:045][613]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/LoversAnimBP]
+[2016.04.14-07.45.41:080][613]LogSavePackage: Save=15.466681ms
+[2016.04.14-07.45.41:080][613]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/LoversAnimBP_Auto54211B6D24CB012990E4B2A8B6F073331.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/LoversAnimBP_Auto5.uasset'
+[2016.04.14-07.45.41:082][613]LogSavePackage: Total save time: 33.112068ms
+[2016.04.14-07.45.41:082][613]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Autosaves/Game/BluePrints/LoversAnimBP_Auto5.uasset
+[2016.04.14-07.45.41:082][613]LogFileHelpers: Auto-saving content packages took 0.072
+[2016.04.14-07.45.41:264][615]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 645/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.46.06:935][693]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 645/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.47.36:556][161]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-07.47.36:580][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E3089F8220
+[2016.04.14-07.47.36:581][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2C501B1A0
+[2016.04.14-07.47.36:581][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2B32C7C40
+[2016.04.14-07.47.40:098][161]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.14-07.47.40:157][161]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.14-07.47.40:375][161]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_3' or package '/Engine/Transient'.
+[2016.04.14-07.47.40:375][161]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_8' or package '/Engine/Transient'.
+[2016.04.14-07.47.40:375][161]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimSingleNodeInstance_4203' or package '/Engine/Transient'.
+[2016.04.14-07.47.40:376][161]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMesh' or package '/Engine/Transient'.
+[2016.04.14-07.47.40:376][161]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimSingleNodeInstance_4200' or package '/Game/Level/GameLevel'.
+[2016.04.14-07.47.42:896][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2ACCF44A0
+[2016.04.14-07.47.42:899][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E20F2F8220
+[2016.04.14-07.47.42:902][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E20F2CFA60
+[2016.04.14-07.47.42:902][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E22A5694E0
+[2016.04.14-07.47.42:903][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E21488C360
+[2016.04.14-07.47.42:904][161]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2BB945800
+[2016.04.14-07.47.56:902][551]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2016.04.14-07.48.00:128][681]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimMontage
+[2016.04.14-07.48.11:874][479]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-07.48.26:630][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/GameLevel" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Level/GameLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.14-07.48.26:686][271]LogSavePackage: Save=19.651022ms
+[2016.04.14-07.48.26:686][271]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/GameLevel38D970134D04F2919C7A2FA6774C4BE2.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Level/GameLevel.umap'
+[2016.04.14-07.48.26:691][271]LogSavePackage: Total save time: 34.233719ms
+[2016.04.14-07.48.26:691][271]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Level/GameLevel.umap
+[2016.04.14-07.48.26:711][271]LogFileHelpers: Saving map 'GameLevel' took 0.187
+[2016.04.14-07.48.26:728][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Lovers" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Lovers.uasset" SILENT=true
+[2016.04.14-07.48.26:763][271]LogSavePackage: Save=23.254255ms
+[2016.04.14-07.48.26:763][271]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/LoversA2C0367A4108EF9676F7EA93AA896635.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Lovers.uasset'
+[2016.04.14-07.48.26:768][271]LogSavePackage: Total save time: 37.170213ms
+[2016.04.14-07.48.26:769][271]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Lovers.uasset
+[2016.04.14-07.48.26:774][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/LoversAnimBP" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/LoversAnimBP.uasset" SILENT=true
+[2016.04.14-07.48.26:792][271]LogSavePackage: Save=8.926055ms
+[2016.04.14-07.48.26:792][271]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/LoversAnimBP34AB6C1741E4CED8ED69DEBAF9FE0031.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/LoversAnimBP.uasset'
+[2016.04.14-07.48.26:797][271]LogSavePackage: Total save time: 18.513143ms
+[2016.04.14-07.48.26:797][271]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/LoversAnimBP.uasset
+[2016.04.14-07.48.29:779][371]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_10' or package '/Engine/Transient'.
+[2016.04.14-07.48.31:149][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E250DA4B80
+[2016.04.14-07.48.31:150][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E26AC22660
+[2016.04.14-07.48.31:150][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E26AC228E0
+[2016.04.14-07.48.31:151][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E223AFFC40
+[2016.04.14-07.48.31:152][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2713B9760
+[2016.04.14-07.48.50:476][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-07.48.57:576][406]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-07.48.58:869][406]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimSingleNodeInstance_7443' or package '/Engine/Transient'.
+[2016.04.14-07.49.16:969][725]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 610/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.51.49:040][742]LogBlueprintUserMessages: [ThirdPersonCharacter_C_11] Hello
+[2016.04.14-07.51.49:459][745]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 610/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.51.56:996][159]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 610/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.52.00:463][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-07.52.01:698][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.14-07.52.01:757][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.14-07.52.03:247][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2A11EC860
+[2016.04.14-07.52.03:248][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2EC374220
+[2016.04.14-07.52.03:250][472]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E26FE65DA0
+[2016.04.14-07.52.10:475][671]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 610/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.52.14:704][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/GameLevel" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Level/GameLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.14-07.52.14:754][163]LogSavePackage: Save=19.215641ms
+[2016.04.14-07.52.14:754][163]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/GameLevelD6CFFA6C4600758526B30BB443362298.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Level/GameLevel.umap'
+[2016.04.14-07.52.14:759][163]LogSavePackage: Total save time: 30.152742ms
+[2016.04.14-07.52.14:759][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Level/GameLevel.umap
+[2016.04.14-07.52.14:778][163]LogFileHelpers: Saving map 'GameLevel' took 0.157
+[2016.04.14-07.52.14:782][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Lovers" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Lovers.uasset" SILENT=true
+[2016.04.14-07.52.14:803][163]LogSavePackage: Save=10.249925ms
+[2016.04.14-07.52.14:803][163]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/Lovers42FEC7DA4222A043DD28A997B1DB16C3.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Lovers.uasset'
+[2016.04.14-07.52.14:807][163]LogSavePackage: Total save time: 21.701727ms
+[2016.04.14-07.52.14:807][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/BluePrints/Lovers.uasset
+[2016.04.14-07.52.14:817][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Model/LoversMont" FILE="../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/LoversMont.uasset" SILENT=true
+[2016.04.14-07.52.14:828][163]LogSavePackage: Save=6.385884ms
+[2016.04.14-07.52.14:828][163]LogSavePackage: Moving '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Saved/LoversMont5A1EDA8A417C92D3A27DC58D339371E5.tmp' to '../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/LoversMont.uasset'
+[2016.04.14-07.52.14:833][163]LogSavePackage: Total save time: 11.224050ms
+[2016.04.14-07.52.14:833][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/root/Documents/SourceTree/YouHaShock/Content/Model/LoversMont.uasset
+[2016.04.14-07.52.20:071][324]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 610/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.14-07.52.22:030][521]Cmd: QUIT_EDITOR
+[2016.04.14-07.52.22:166][521]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
+[2016.04.14-07.52.22:232][521]LogExit: Preparing to exit.
+[2016.04.14-07.52.23:122][521]LogExit: Editor shut down
+[2016.04.14-07.52.23:123][521]LogExit: Transaction tracking system shut down
+[2016.04.14-07.52.23:136][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E251607880
+[2016.04.14-07.52.23:136][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E26A607880
+[2016.04.14-07.52.23:138][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E26B0DA660
+[2016.04.14-07.52.23:138][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E26D55B1A0
+[2016.04.14-07.52.23:141][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E238182B60
+[2016.04.14-07.52.23:452][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2ACF659E0
+[2016.04.14-07.52.23:452][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E26FE66480
+[2016.04.14-07.52.23:452][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E2C4C02FC0
+[2016.04.14-07.52.23:452][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E228EB87C0
+[2016.04.14-07.52.23:452][521]LogExit: Object subsystem successfully closed.
+[2016.04.14-07.52.23:480][521]LogD3D11RHI: Shutdown
+[2016.04.14-07.52.23:480][521]LogD3D11RHI: CleanupD3DDevice
+[2016.04.14-07.52.23:615][521]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.14-07.52.23:660][521]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.04.14-07.52.23:660][521]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.04.14-07.52.23:660][521]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.04.14-07.52.23:660][521]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.04.14-07.52.23:660][521]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.04.14-07.52.23:660][521]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.04.14-07.52.23:660][521]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.04.14-07.52.23:667][521]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.04.14-07.52.23:667][521]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.04.14-07.52.23:668][521]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.04.14-07.52.23:669][521]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.04.14-07.52.23:669][521]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.04.14-07.52.23:670][521]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.04.14-07.52.23:670][521]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.04.14-07.52.23:670][521]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.04.14-07.52.23:670][521]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.04.14-07.52.23:670][521]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.04.14-07.52.23:670][521]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.04.14-07.52.23:670][521]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.04.14-07.52.23:670][521]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.04.14-07.52.23:670][521]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.04.14-07.52.23:670][521]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.04.14-07.52.23:672][521]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.04.14-07.52.23:673][521]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.04.14-07.52.23:674][521]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.04.14-07.52.23:674][521]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.04.14-07.52.23:675][521]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.04.14-07.52.23:675][521]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.04.14-07.52.24:393][521]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.04.14-07.52.24:393][521]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.04.14-07.52.24:393][521]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.04.14-07.52.24:393][521]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.04.14-07.52.24:398][521]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.04.14-07.52.24:399][521]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.04.14-07.52.24:399][521]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.04.14-07.52.24:400][521]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.04.14-07.52.24:400][521]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.04.14-07.52.24:401][521]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.04.14-07.52.24:401][521]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.04.14-07.52.24:402][521]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.04.14-07.52.24:402][521]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.04.14-07.52.24:403][521]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.04.14-07.52.24:403][521]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.04.14-07.52.24:403][521]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.04.14-07.52.24:403][521]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.04.14-07.52.24:403][521]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.04.14-07.52.24:403][521]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.04.14-07.52.24:405][521]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.04.14-07.52.24:405][521]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.04.14-07.52.24:406][521]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.04.14-07.52.24:407][521]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.04.14-07.52.24:408][521]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.04.14-07.52.24:408][521]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.04.14-07.52.24:408][521]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.04.14-07.52.24:409][521]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.04.14-07.52.24:410][521]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.04.14-07.52.24:410][521]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.04.14-07.52.24:412][521]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.04.14-07.52.24:412][521]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.04.14-07.52.24:412][521]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.04.14-07.52.24:413][521]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.04.14-07.52.24:413][521]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.04.14-07.52.24:413][521]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.04.14-07.52.24:413][521]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.04.14-07.52.24:414][521]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.04.14-07.52.24:414][521]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.04.14-07.52.24:415][521]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.04.14-07.52.24:415][521]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.04.14-07.52.24:415][521]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.04.14-07.52.24:416][521]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.04.14-07.52.24:416][521]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.04.14-07.52.24:417][521]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.04.14-07.52.24:417][521]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.04.14-07.52.24:417][521]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.04.14-07.52.24:417][521]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.04.14-07.52.24:417][521]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.04.14-07.52.24:418][521]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.04.14-07.52.24:418][521]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.04.14-07.52.24:661][521]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.04.14-07.52.24:663][521]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.04.14-07.52.24:663][521]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.04.14-07.52.24:663][521]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.04.14-07.52.24:663][521]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.04.14-07.52.24:663][521]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.04.14-07.52.24:663][521]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.04.14-07.52.24:663][521]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.04.14-07.52.24:677][521]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.04.14-07.52.24:677][521]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.04.14-07.52.24:677][521]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.04.14-07.52.24:677][521]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.04.14-07.52.24:679][521]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.04.14-07.52.24:680][521]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.04.14-07.52.24:680][521]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.04.14-07.52.24:680][521]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.04.14-07.52.24:681][521]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.04.14-07.52.24:682][521]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.04.14-07.52.24:682][521]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.04.14-07.52.24:683][521]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.04.14-07.52.24:683][521]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.04.14-07.52.24:683][521]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.04.14-07.52.24:686][521]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.04.14-07.52.24:687][521]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.04.14-07.52.24:687][521]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.04.14-07.52.24:688][521]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.04.14-07.52.24:688][521]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.04.14-07.52.24:688][521]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.04.14-07.52.24:688][521]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.04.14-07.52.24:689][521]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.04.14-07.52.24:689][521]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.04.14-07.52.24:689][521]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.04.14-07.52.24:691][521]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.04.14-07.52.24:696][521]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.04.14-07.52.24:817][521]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.04.14-07.52.24:819][521]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.04.14-07.52.24:820][521]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.14-07.52.24:920][521]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.14-07.52.24:920][521]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.14-07.52.24:922][521]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.14-07.52.24:926][521]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.14-07.52.24:926][521]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.14-07.52.24:927][521]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.14-07.52.24:927][521]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.14-07.52.24:927][521]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.14-07.52.24:927][521]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.14-07.52.24:929][521]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.14-07.52.24:929][521]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.14-07.52.24:929][521]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.14-07.52.24:929][521]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.14-07.52.24:929][521]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.14-07.52.24:931][521]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.14-07.52.24:932][521]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.14-07.52.24:933][521]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.14-07.52.24:934][521]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.14-07.52.24:934][521]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.14-07.52.24:937][521]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.14-07.52.24:937][521]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.14-07.52.24:937][521]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.14-07.52.24:937][521]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.14-07.52.24:937][521]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.14-07.52.24:937][521]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.14-07.52.24:937][521]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.14-07.52.24:937][521]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.14-07.52.24:938][521]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.14-07.52.24:938][521]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.14-07.52.25:030][521]LogDerivedDataCache: Shutdown
+[2016.04.14-07.52.25:030][521]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.14-07.52.25:032][521]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.14-07.52.25:032][521]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.14-07.52.25:033][521]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.14-07.52.25:033][521]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.14-07.52.25:033][521]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.14-07.52.25:034][521]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.14-07.52.25:034][521]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.14-07.52.25:034][521]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.14-07.52.25:034][521]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.14-07.52.25:034][521]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.14-07.52.25:035][521]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.14-07.52.25:035][521]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.14-07.52.25:035][521]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.14-07.52.25:035][521]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.14-07.52.25:036][521]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.14-07.52.25:036][521]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.14-07.52.25:036][521]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.14-07.52.25:037][521]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.14-07.52.25:038][521]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.14-07.52.25:038][521]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.14-07.52.25:038][521]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.14-07.52.25:038][521]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.14-07.52.27:040][521]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.14-07.52.27:042][521]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.14-07.52.27:044][521]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.14-07.52.27:044][521]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.14-07.52.27:045][521]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.14-07.52.27:045][521]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.14-07.52.27:045][521]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.14-07.52.27:071][521]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.14-07.52.27:072][521]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.14-07.52.27:072][521]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.14-07.52.27:072][521]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.14-07.52.27:072][521]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.14-07.52.27:072][521]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.14-07.52.27:072][521]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.14-07.52.27:072][521]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.14-07.52.27:072][521]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.14-07.52.27:072][521]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.14-07.52.27:074][521]LogExit: Exiting.
+[2016.04.14-07.52.27:079][521]Log file closed, 04/14/16 16:52:27
