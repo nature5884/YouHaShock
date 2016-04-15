@@ -1,0 +1,956 @@
+﻿[2016.04.14-00.56.16:400][  0]Log file open, 04/14/16 09:56:16
+[2016.04.14-00.56.16:400][  0]LogInit:Display: Running engine for game: YouHaShock
+[2016.04.14-00.56.16:400][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.14-00.56.16:400][  0]LogInit:Display: RandInit(149938463) SRandInit(149938464).
+[2016.04.14-00.56.16:400][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.14-00.56.16:400][  0]LogStats: Stats thread started at 0.065231
+[2016.04.14-00.56.16:400][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.14-00.56.16:400][  0]LogInit: API Version: 2758231
+[2016.04.14-00.56.16:400][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.14-00.56.16:400][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.14-00.56.16:400][  0]LogInit: Build Configuration: Development
+[2016.04.14-00.56.16:400][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.14-00.56.16:400][  0]LogInit: Command line:  
+[2016.04.14-00.56.16:400][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.14-00.56.16:400][  0]LogInit: Rocket: 1
+[2016.04.14-00.56.16:405][  0]LogInit: Using libcurl 7.41.0
+[2016.04.14-00.56.16:405][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.14-00.56.16:405][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.14-00.56.16:405][  0]LogInit:  - other features:
+[2016.04.14-00.56.16:405][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.14-00.56.16:405][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.14-00.56.16:405][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.14-00.56.16:405][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.14-00.56.16:405][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.14-00.56.16:405][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.14-00.56.16:405][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.14-00.56.16:405][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.14-00.56.16:405][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.14-00.56.16:405][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.14-00.56.16:410][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.14-00.56.16:414][  0]LogInit: Object subsystem initialized
+[2016.04.14-00.56.16:415][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.14-00.56.16:415][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.14-00.56.16:421][  0]LogInit: Computer: DESKTOP-OA538MI
+[2016.04.14-00.56.16:421][  0]LogInit: User: 136i7670002
+[2016.04.14-00.56.16:421][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.14-00.56.16:421][  0]LogInit: High frequency timer resolution =3.328131 MHz
+[2016.04.14-00.56.16:421][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.14-00.56.16:421][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.14-00.56.16:421][  0]LogMemory: Process Physical Memory: 56.07 MB used, 56.07 MB peak
+[2016.04.14-00.56.16:421][  0]LogMemory: Process Virtual Memory: 58.66 MB used, 58.66 MB peak
+[2016.04.14-00.56.16:421][  0]LogMemory: Physical Memory: 2951.92 MB used, 8112.36 MB total
+[2016.04.14-00.56.16:421][  0]LogMemory: Virtual Memory: 384.09 MB used, 134217728.00 MB total
+[2016.04.14-00.56.16:472][  0]LogTextLocalizationManager: No specific translations for ('ja-JP') exist, so ('ja') translations will be used.
+[2016.04.14-00.56.16:536][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:false):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (816077464) Localized String: (偽)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (816077464) Localized String: (false)
+[2016.04.14-00.56.16:537][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:true):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-942328987) Localized String: (真)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (-942328987) Localized String: (true)
+[2016.04.14-00.56.16:537][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (再生が最後まで終わった後、ロープ再生するようにしますか？)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+[2016.04.14-00.56.16:537][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースで値を取得するX座標)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースでサンプリングするX座標)
+[2016.04.14-00.56.16:537][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースで値を取得するY座標)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースでサンプリングするY座標)
+[2016.04.14-00.56.16:537][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースで値を取得するZ座標)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースでサンプリングするZ座標)
+[2016.04.14-00.56.16:537][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (再生するブレンドスペースのアセット)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1599043277) Localized String: (再生するブレンド空間アセット)
+[2016.04.14-00.56.16:537][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (このマシーンで1フレームあたりに同時に処理できるトランジションの最大数)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1567650430) Localized String: (単一フレームでマシーンが「同時」に受け取れる遷移の最大数)
+[2016.04.14-00.56.16:537][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+[2016.04.14-00.56.16:736][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 960 (Feature Level 11_0)
+[2016.04.14-00.56.16:736][  0]LogD3D11RHI: Adapter has 1969MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 2 output[s]
+[2016.04.14-00.56.16:737][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.14-00.56.16:737][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4056MB of shared system memory, 0 output[s]
+[2016.04.14-00.56.16:737][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.14-00.56.16:741][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.14-00.56.16:741][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.14-00.56.16:752][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.14-00.56.16:766][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Intermediate/Shaders/WorkingDirectory/8988/).
+[2016.04.14-00.56.16:766][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/136-I7~1/AppData/Local/Temp/UnrealShaderWorkingDir/A168BDC44E09C7910C58478E3887FA3A/'.
+[2016.04.14-00.56.16:766][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.14-00.56.17:456][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.14-00.56.17:460][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.14-00.56.17:463][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.14-00.56.17:466][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.14-00.56.17:469][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.14-00.56.17:472][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.14-00.56.17:474][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.14-00.56.17:477][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.14-00.56.17:479][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.14-00.56.17:481][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.14-00.56.17:484][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.14-00.56.17:488][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.14-00.56.17:488][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.14-00.56.17:489][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.14-00.56.17:504][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.14-00.56.17:507][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.14-00.56.17:509][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.14-00.56.17:512][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.14-00.56.17:512][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.14-00.56.17:606][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.14-00.56.17:640][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.14-00.56.17:640][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.14-00.56.17:640][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.14-00.56.17:640][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.14-00.56.17:640][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.14-00.56.17:640][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.14-00.56.17:684][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.14-00.56.17:699][  0]LogDerivedDataCache: Using Local data cache path C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.14-00.56.17:959][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.14-00.56.17:961][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.14-00.56.18:044][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.14-00.56.18:044][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.14-00.56.18:222][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.14-00.56.19:132][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.14-00.56.19:240][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2016.04.14-00.56.19:407][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.04.14-00.56.19:686][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.04.14-00.56.19:698][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.04.14-00.56.19:710][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.04.14-00.56.19:905][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.14-00.56.19:905][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.14-00.56.19:949][  0]LogEngine: Initializing Engine...
+[2016.04.14-00.56.19:951][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.14-00.56.19:951][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.14-00.56.20:044][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.14-00.56.20:048][  0]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-00.56.20:054][  0]LogInit: FAudioDevice initialized.
+[2016.04.14-00.56.20:077][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/136-i7_6700-02/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.14-00.56.20:080][  0]LogInit: Texture streaming: Enabled
+[2016.04.14-00.56.20:084][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.14-00.56.20:084][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.14-00.56.20:084][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 01ed90104acfb9871489c39ae4ea063e|12cc3d1e7cda4b14a5ffa696627d80b0|3e384a6f-665a-45f4-8828-96cd5739b813
+[2016.04.14-00.56.20:084][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.14-00.56.20:090][  0]LogInit: Transaction tracking system initialized
+[2016.04.14-00.56.20:107][  0]BlueprintLog: New page: エディタの読み込み
+[2016.04.14-00.56.20:209][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2016.04.14-00.56.20:272][  0]LogConsoleResponse:Display: 
+[2016.04.14-00.56.20:356][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.14-00.56.20:396][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/' took 0.01s
+[2016.04.14-00.56.20:396][  0]SourceControl: 情報 ソースコントロールは無効です
+[2016.04.14-00.56.20:396][  0]Cmd: MAP LOAD FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/Level/GameLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.14-00.56.20:397][  0]LightingResults: New page: ライティングのビルド
+[2016.04.14-00.56.20:399][  0]MapCheck: New page: マップをチェック
+[2016.04.14-00.56.20:399][  0]LightingResults: New page: <何も選択されていません>
+[2016.04.14-00.56.20:409][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC676BBB00
+[2016.04.14-00.56.20:657][  0]LogMaterial: Missing cached shader map for material EnemyMat, compiling. 
+[2016.04.14-00.56.21:055][  0]LogMaterial: Missing cached shader map for material LoversMat, compiling. 
+[2016.04.14-00.56.21:080][  0]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-00.56.21:088][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.14-00.56.21:089][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.14-00.56.21:166][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 77.477ミリ秒かかりました。
+[2016.04.14-00.56.21:166][  0]LogFileHelpers: Loading map 'GameLevel' took 0.770
+[2016.04.14-00.56.21:300][  0]LogCollectionManager: Loaded 0 collections in 0.001841 seconds
+[2016.04.14-00.56.21:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/Collections/' took 0.01s
+[2016.04.14-00.56.21:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/Developers/136i7670002/Collections/' took 0.01s
+[2016.04.14-00.56.21:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/Collections/' took 0.01s
+[2016.04.14-00.56.21:345][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.14-00.56.21:353][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 1893 classes and 338 folders.
+[2016.04.14-00.56.21:359][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.14-00.56.21:424][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.14-00.56.21:428][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.14-00.56.21:450][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.14-00.56.21:454][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2016.04.14-00.56.21:476][  0]LogLoad: Full Startup: 5.42 seconds (BP compile: 0.08 seconds)
+[2016.04.14-00.56.21:507][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2016.04.14-00.56.21:513][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.14-00.56.21:577][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.14-00.56.21:739][  0]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:2).
+[2016.04.14-00.56.22:361][  6]LogAssetRegistry: Asset discovery search completed in 3.1317 seconds
+[2016.04.14-00.56.22:361][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.14-00.56.22:361][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2016.04.14-00.56.24:471][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-00.56.24:471][179]PIE: New page: PIEセッション: GameLevel (2016/04/14 18:56:24)
+[2016.04.14-00.56.24:471][179]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-00.56.24:473][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002340s)
+[2016.04.14-00.56.24:474][179]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-00.56.24:474][179]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2016.04.14-00.56.24:474][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.003422s)
+[2016.04.14-00.56.24:480][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-00.56.24:510][179]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-00.56.24:514][179]LogInit: FAudioDevice initialized.
+[2016.04.14-00.56.24:569][179]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-00.56.24:572][179]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-09.56.24
+[2016.04.14-00.56.24:572][179]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-00.56.24:572][179]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-00.56.24:572][179]LogWorld: Bringing up level for play took: 0.002271
+[2016.04.14-00.56.24:580][179]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel -0.124のプレイ イン エディタの開始時間
+[2016.04.14-00.56.58:887][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC66168AE0
+[2016.04.14-01.00.46:747][277]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.14-01.00.47:128][277]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
+[2016.04.14-01.06.50:131][243]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\136-i7_6700-02\Downloads\map\map\map_base.FBX)
+[2016.04.14-01.06.50:184][243]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.14-01.06.50:184][243]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.14-01.06.50:184][243]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.14-01.06.50:184][243]LogFbx: ItemName: Model, ItemCount : 1
+[2016.04.14-01.06.50:184][243]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.04.14-01.06.50:253][243]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map\map\map_base.FBX
+[2016.04.14-01.06.50:345][243]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.07.00:729][243]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map\map\map_base.FBX
+[2016.04.14-01.07.00:810][243]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.07.00:843][243]LogFbx:Warning: Triangulating static mesh map_base
+[2016.04.14-01.07.01:657][243]LogStaticMesh: スタティックメッシュ map_base をビルド中...
+[2016.04.14-01.07.01:740][243]LogStaticMesh: Built static mesh [0.083317.2s] /Game/CG/Mesh/map_base.map_base
+[2016.04.14-01.07.01:761][243]FBXImport:Warning: 警告 警告：このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
+[2016.04.14-01.07.01:811][243]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\136-i7_6700-02\Downloads\map\map\map_stone01.FBX)
+[2016.04.14-01.07.01:883][243]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map\map\map_stone01.FBX
+[2016.04.14-01.07.01:950][243]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.07.01:974][243]LogStaticMesh: スタティックメッシュ map_stone01 をビルド中...
+[2016.04.14-01.07.01:978][243]LogStaticMesh: Built static mesh [0.003674.2s] /Game/CG/Mesh/map_stone01.map_stone01
+[2016.04.14-01.07.01:987][243]FBXImport:Warning: 警告 警告：このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
+[2016.04.14-01.07.01:990][243]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\136-i7_6700-02\Downloads\map\map\map_stone02.FBX)
+[2016.04.14-01.07.02:058][243]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map\map\map_stone02.FBX
+[2016.04.14-01.07.02:127][243]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.07.02:156][243]LogFbx:Warning: Triangulating static mesh map_stone02
+[2016.04.14-01.07.02:160][243]LogStaticMesh: スタティックメッシュ map_stone02 をビルド中...
+[2016.04.14-01.07.02:165][243]LogStaticMesh: Built static mesh [0.004812.2s] /Game/CG/Mesh/map_stone02.map_stone02
+[2016.04.14-01.07.02:172][243]FBXImport:Warning: 警告 警告：このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
+[2016.04.14-01.07.02:175][243]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\136-i7_6700-02\Downloads\map\map\map_wood01.FBX)
+[2016.04.14-01.07.02:246][243]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map\map\map_wood01.FBX
+[2016.04.14-01.07.02:314][243]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.07.02:337][243]LogFbx:Warning: Triangulating static mesh map_wood01
+[2016.04.14-01.07.02:343][243]LogStaticMesh: スタティックメッシュ map_wood01 をビルド中...
+[2016.04.14-01.07.02:349][243]LogStaticMesh: Built static mesh [0.005329.2s] /Game/CG/Mesh/map_wood01.map_wood01
+[2016.04.14-01.07.02:358][243]FBXImport:Warning: 警告 警告：このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
+[2016.04.14-01.07.11:191][ 85]LogActorFactory: Actor Factory created map_base
+[2016.04.14-01.07.13:778][394]LogActorFactory: Actor Factory created map_base
+[2016.04.14-01.07.43:316][734]Cmd: TRANSACTION UNDO
+[2016.04.14-01.07.43:316][734]LogEditorTransaction: Undo アクタ をスケール
+[2016.04.14-01.07.59:071][471]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.14-01.08.00:741][476]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.04.14-01.08.02:456][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.08.02:457][673]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:08:02)
+[2016.04.14-01.08.02:457][673]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.08.02:459][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002071s)
+[2016.04.14-01.08.02:459][673]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.08.02:459][673]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2016.04.14-01.08.02:459][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002792s)
+[2016.04.14-01.08.02:459][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-01.08.02:470][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC6C5F49A0
+[2016.04.14-01.08.02:476][673]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.08.02:480][673]LogInit: FAudioDevice initialized.
+[2016.04.14-01.08.02:512][673]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.08.02:515][673]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.08.02
+[2016.04.14-01.08.02:515][673]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.08.02:515][673]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.08.02:515][673]LogWorld: Bringing up level for play took: 0.001741
+[2016.04.14-01.08.02:516][673]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel -0.188のプレイ イン エディタの開始時間
+[2016.04.14-01.08.10:232][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC6C2049A0
+[2016.04.14-01.08.17:549][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.04.14-01.08.18:177][446]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.04.14-01.08.19:608][599]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2016.04.14-01.08.21:087][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.08.21:087][758]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:08:21)
+[2016.04.14-01.08.21:087][758]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.08.21:089][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001966s)
+[2016.04.14-01.08.21:089][758]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.08.21:090][758]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2016.04.14-01.08.21:090][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002911s)
+[2016.04.14-01.08.21:102][758]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.08.21:105][758]LogInit: FAudioDevice initialized.
+[2016.04.14-01.08.21:138][758]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.08.21:141][758]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.08.21
+[2016.04.14-01.08.21:141][758]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.08.21:141][758]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.08.21:141][758]LogWorld: Bringing up level for play took: 0.001918
+[2016.04.14-01.08.21:143][758]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel 0.439のプレイ イン エディタの開始時間
+[2016.04.14-01.08.22:260][880]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC6C339580
+[2016.04.14-01.08.24:992][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map_base)
+[2016.04.14-01.08.49:101][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.08.49:101][463]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:08:49)
+[2016.04.14-01.08.49:101][463]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.08.49:102][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001443s)
+[2016.04.14-01.08.49:103][463]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.08.49:103][463]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2016.04.14-01.08.49:103][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002248s)
+[2016.04.14-01.08.49:116][463]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC6C3E6A20
+[2016.04.14-01.08.49:116][463]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.08.49:119][463]LogInit: FAudioDevice initialized.
+[2016.04.14-01.08.49:149][463]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.08.49:152][463]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.08.49
+[2016.04.14-01.08.49:152][463]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.08.49:152][463]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.08.49:158][463]LogWorld: Bringing up level for play took: 0.007239
+[2016.04.14-01.08.49:159][463]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel 0.455のプレイ イン エディタの開始時間
+[2016.04.14-01.09.39:498][492]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC73C571A0
+[2016.04.14-01.09.54:122][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.09.54:122][741]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:09:54)
+[2016.04.14-01.09.54:122][741]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.09.54:124][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002079s)
+[2016.04.14-01.09.54:125][741]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.09.54:125][741]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2016.04.14-01.09.54:125][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.003122s)
+[2016.04.14-01.09.54:138][741]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.09.54:143][741]LogInit: FAudioDevice initialized.
+[2016.04.14-01.09.54:178][741]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.09.54:181][741]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.09.54
+[2016.04.14-01.09.54:181][741]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.09.54:181][741]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.09.54:181][741]LogWorld: Bringing up level for play took: 0.001841
+[2016.04.14-01.09.54:183][741]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel -0.522のプレイ イン エディタの開始時間
+[2016.04.14-01.10.22:858][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC6C3E4220
+[2016.04.14-01.11.12:024][907]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.11.12:024][907]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:11:12)
+[2016.04.14-01.11.12:024][907]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.11.12:026][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001456s)
+[2016.04.14-01.11.12:026][907]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.11.12:026][907]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2016.04.14-01.11.12:026][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002285s)
+[2016.04.14-01.11.12:040][907]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.11.12:043][907]LogInit: FAudioDevice initialized.
+[2016.04.14-01.11.12:073][907]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.11.12:076][907]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.11.12
+[2016.04.14-01.11.12:076][907]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.11.12:076][907]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.11.12:076][907]LogWorld: Bringing up level for play took: 0.002060
+[2016.04.14-01.11.12:078][907]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel -0.626のプレイ イン エディタの開始時間
+[2016.04.14-01.11.25:214][468]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC581D05E0
+[2016.04.14-01.11.30:799][112]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map_base)
+[2016.04.14-01.11.44:429][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map_base)
+[2016.04.14-01.11.46:804][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map_base)
+[2016.04.14-01.11.47:499][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.04.14-01.11.48:792][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map_base)
+[2016.04.14-01.12.35:608][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.12.35:609][ 85]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:12:35)
+[2016.04.14-01.12.35:609][ 85]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.12.35:610][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001384s)
+[2016.04.14-01.12.35:611][ 85]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.12.35:611][ 85]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2016.04.14-01.12.35:611][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002248s)
+[2016.04.14-01.12.35:623][ 85]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.12.35:626][ 85]LogInit: FAudioDevice initialized.
+[2016.04.14-01.12.35:659][ 85]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.12.35:662][ 85]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.12.35
+[2016.04.14-01.12.35:662][ 85]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.12.35:662][ 85]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.12.35:662][ 85]LogWorld: Bringing up level for play took: 0.001750
+[2016.04.14-01.12.35:664][ 85]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel 0.959のプレイ イン エディタの開始時間
+[2016.04.14-01.12.54:266][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC6BE98220
+[2016.04.14-01.13.03:326][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map_base)
+[2016.04.14-01.13.32:561][ 70]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.13.32:561][ 70]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:13:32)
+[2016.04.14-01.13.32:561][ 70]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.13.32:563][ 70]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001942s)
+[2016.04.14-01.13.32:564][ 70]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.13.32:564][ 70]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2016.04.14-01.13.32:564][ 70]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002893s)
+[2016.04.14-01.13.32:579][ 70]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.13.32:583][ 70]LogInit: FAudioDevice initialized.
+[2016.04.14-01.13.32:620][ 70]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.13.32:623][ 70]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.13.32
+[2016.04.14-01.13.32:623][ 70]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.13.32:623][ 70]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.13.32:623][ 70]LogWorld: Bringing up level for play took: 0.001875
+[2016.04.14-01.13.32:625][ 70]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel -0.079のプレイ イン エディタの開始時間
+[2016.04.14-01.13.41:032][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC661698A0
+[2016.04.14-01.13.50:776][939]LogSavePackage: Save=21.430046ms
+[2016.04.14-01.13.50:776][939]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/GameLevel72A43DAD413943C0B171B29359DBE48A.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/Level/GameLevel.umap'
+[2016.04.14-01.13.50:784][939]LogSavePackage: Total save time: 55.409480ms
+[2016.04.14-01.13.50:784][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/Level/GameLevel.umap
+[2016.04.14-01.13.50:807][939]LogFileHelpers: Saving map 'GameLevel' took 1.821
+[2016.04.14-01.13.50:810][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/gameMgr/gameMgr" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/BluePrints/gameMgr/gameMgr.uasset" SILENT=true
+[2016.04.14-01.13.50:825][939]LogSavePackage: Save=11.460486ms
+[2016.04.14-01.13.50:825][939]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/gameMgr34AD9BCE40B2E8B6D5A771BD375EFE95.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/BluePrints/gameMgr/gameMgr.uasset'
+[2016.04.14-01.13.50:828][939]LogSavePackage: Total save time: 14.388558ms
+[2016.04.14-01.13.50:828][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/BluePrints/gameMgr/gameMgr.uasset
+[2016.04.14-01.13.50:845][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CG/Mesh/map_base" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_base.uasset" SILENT=true
+[2016.04.14-01.13.50:861][939]LogSavePackage: Save=11.989613ms
+[2016.04.14-01.13.50:861][939]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/map_baseABBE1BDC4023652B3BCCFFA2630E90BF.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_base.uasset'
+[2016.04.14-01.13.50:864][939]LogSavePackage: Total save time: 15.283354ms
+[2016.04.14-01.13.50:864][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_base.uasset
+[2016.04.14-01.13.50:880][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CG/Mesh/map_stone01" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_stone01.uasset" SILENT=true
+[2016.04.14-01.13.50:898][939]LogSavePackage: Save=13.247676ms
+[2016.04.14-01.13.50:898][939]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/map_stone019EE80B824FA54BBD3738CAB98DF931C7.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_stone01.uasset'
+[2016.04.14-01.13.50:902][939]LogSavePackage: Total save time: 17.510127ms
+[2016.04.14-01.13.50:902][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_stone01.uasset
+[2016.04.14-01.13.50:917][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CG/Mesh/map_stone02" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_stone02.uasset" SILENT=true
+[2016.04.14-01.13.50:939][939]LogSavePackage: Save=11.379661ms
+[2016.04.14-01.13.50:939][939]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/map_stone02DCEB0816464B15976A069794607CE694.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_stone02.uasset'
+[2016.04.14-01.13.50:942][939]LogSavePackage: Total save time: 14.667995ms
+[2016.04.14-01.13.50:942][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_stone02.uasset
+[2016.04.14-01.13.50:959][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CG/Mesh/map_wood01" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_wood01.uasset" SILENT=true
+[2016.04.14-01.13.50:975][939]LogSavePackage: Save=10.919342ms
+[2016.04.14-01.13.50:975][939]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/map_wood018FB07BE44327EDEBF600F48CE24A7A87.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_wood01.uasset'
+[2016.04.14-01.13.50:979][939]LogSavePackage: Total save time: 14.976274ms
+[2016.04.14-01.13.50:979][939]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_wood01.uasset
+[2016.04.14-01.15.18:260][ 80]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.15.18:759][ 80]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.04.14-01.15.28:843][454]LogRenderer: Reallocating scene render targets to support 1616x900 (Frame:93989).
+[2016.04.14-01.17.09:616][608]LogRenderer: Reallocating scene render targets to support 1616x920 (Frame:104350).
+[2016.04.14-01.19.24:830][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CG/Mesh/map_stone01" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_stone01.uasset" SILENT=true
+[2016.04.14-01.19.24:856][691]LogSavePackage: Save=10.972224ms
+[2016.04.14-01.19.24:856][691]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/map_stone0170CC0E294228A3E230BFABBE3A37FFAF.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_stone01.uasset'
+[2016.04.14-01.19.24:864][691]LogSavePackage: Total save time: 30.039083ms
+[2016.04.14-01.19.24:864][691]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_stone01.uasset
+[2016.04.14-01.23.49:060][  3]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.14-01.23.49:088][  3]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/GameLevel' took 0.028
+[2016.04.14-01.23.49:093][  3]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/gameMgr/gameMgr] ([1] browsable assets)...
+[2016.04.14-01.23.49:093][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/gameMgr/gameMgr]
+[2016.04.14-01.23.49:121][  3]LogSavePackage: Save=12.389235ms
+[2016.04.14-01.23.49:121][  3]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/gameMgr_Auto15B5DF39340D03E93104BF38903EE4424.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/Autosaves/Game/BluePrints/gameMgr/gameMgr_Auto1.uasset'
+[2016.04.14-01.23.49:123][  3]LogSavePackage: Total save time: 25.379110ms
+[2016.04.14-01.23.49:123][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/Autosaves/Game/BluePrints/gameMgr/gameMgr_Auto1.uasset
+[2016.04.14-01.23.49:123][  3]LogFileHelpers: Auto-saving content packages took 0.034
+[2016.04.14-01.24.16:724][766]LogActorFactory: Actor Factory created map_wood01
+[2016.04.14-01.24.32:520][292]LogActorFactory: Actor Factory created map_stone01
+[2016.04.14-01.24.35:153][556]LogActorFactory: Actor Factory created map_stone01
+[2016.04.14-01.24.41:224][120]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.14-01.24.41:226][120]LogPlayLevel: [PlayLevel] Compiling gameMgr before play...
+[2016.04.14-01.24.41:265][120]LogPlayLevel: PlayLevel: Blueprint regeneration took 41 ms (1 blueprints)
+[2016.04.14-01.24.41:284][120]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:24:41)
+[2016.04.14-01.24.41:284][120]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.24.41:287][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002092s)
+[2016.04.14-01.24.41:287][120]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.24.41:287][120]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2016.04.14-01.24.41:288][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.003142s)
+[2016.04.14-01.24.41:314][120]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.24.41:318][120]LogInit: FAudioDevice initialized.
+[2016.04.14-01.24.41:349][120]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.24.41:352][120]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.24.41
+[2016.04.14-01.24.41:352][120]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.24.41:352][120]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.24.41:352][120]LogWorld: Bringing up level for play took: 0.002092
+[2016.04.14-01.24.41:354][120]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel 0.649のプレイ イン エディタの開始時間
+[2016.04.14-01.24.58:735][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC9FEC1760
+[2016.04.14-01.25.06:808][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.25.06:808][816]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:25:06)
+[2016.04.14-01.25.06:808][816]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.25.06:810][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001992s)
+[2016.04.14-01.25.06:810][816]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.25.06:811][816]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2016.04.14-01.25.06:811][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002838s)
+[2016.04.14-01.25.06:834][816]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.25.06:837][816]LogInit: FAudioDevice initialized.
+[2016.04.14-01.25.06:869][816]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.25.06:873][816]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.25.06
+[2016.04.14-01.25.06:873][816]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.25.06:873][816]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.25.06:873][816]LogWorld: Bringing up level for play took: 0.002059
+[2016.04.14-01.25.06:874][816]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel 0.17のプレイ イン エディタの開始時間
+[2016.04.14-01.25.21:177][417]LogBlueprintUserMessages: [ThirdPersonCharacter_C_9] 愛の鉄拳パンチ
+[2016.04.14-01.25.26:080][964]LogBlueprintUserMessages: [ThirdPersonCharacter_C_9] ハグ
+[2016.04.14-01.25.36:192][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC3DC6A8E0
+[2016.04.14-01.25.48:690][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.25.48:690][258]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:25:48)
+[2016.04.14-01.25.48:690][258]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.25.48:692][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001761s)
+[2016.04.14-01.25.48:692][258]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.25.48:692][258]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2016.04.14-01.25.48:693][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002635s)
+[2016.04.14-01.25.48:721][258]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.25.48:724][258]LogInit: FAudioDevice initialized.
+[2016.04.14-01.25.48:753][258]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.25.48:756][258]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.25.48
+[2016.04.14-01.25.48:756][258]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.25.48:756][258]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.25.48:757][258]LogWorld: Bringing up level for play took: 0.002178
+[2016.04.14-01.25.48:758][258]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel 0.054のプレイ イン エディタの開始時間
+[2016.04.14-01.26.41:910][389]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC784D40E0
+[2016.04.14-01.27.58:659][881]Cmd: SELECT NONE
+[2016.04.14-01.28.07:148][713]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (map_stone01)
+[2016.04.14-01.28.08:279][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map_base)
+[2016.04.14-01.34.01:691][823]BlueprintLog: New page: マクロに折りたたむ
+[2016.04.14-01.35.29:423][437]LogSavePackage: Save=19.487213ms
+[2016.04.14-01.35.29:423][437]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/GameLevel_Auto21CD6C06B4AFC2590ACF98E8618EF39C3.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/Autosaves/Game/Level/GameLevel_Auto2.umap'
+[2016.04.14-01.35.29:424][437]LogSavePackage: Total save time: 36.515087ms
+[2016.04.14-01.35.29:424][437]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/Autosaves/Game/Level/GameLevel_Auto2.umap
+[2016.04.14-01.35.29:430][437]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/GameLevel' took 0.080
+[2016.04.14-01.35.29:431][437]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.080
+[2016.04.14-01.35.29:435][437]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/gameMgr/gameMgr] ([1] browsable assets)...
+[2016.04.14-01.35.29:435][437]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/gameMgr/gameMgr]
+[2016.04.14-01.35.29:490][437]LogSavePackage: Save=36.160534ms
+[2016.04.14-01.35.29:490][437]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/gameMgr_Auto21E9E687040F8B746F62502B8B38C93E4.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/Autosaves/Game/BluePrints/gameMgr/gameMgr_Auto2.uasset'
+[2016.04.14-01.35.29:493][437]LogSavePackage: Total save time: 52.872319ms
+[2016.04.14-01.35.29:493][437]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/Autosaves/Game/BluePrints/gameMgr/gameMgr_Auto2.uasset
+[2016.04.14-01.35.29:493][437]LogFileHelpers: Auto-saving content packages took 0.061
+[2016.04.14-01.46.08:220][586]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\136-i7_6700-02\Downloads\map_oasis01.FBX)
+[2016.04.14-01.46.08:280][586]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.14-01.46.08:280][586]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.14-01.46.08:280][586]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.14-01.46.08:280][586]LogFbx: ItemName: Model, ItemCount : 2
+[2016.04.14-01.46.08:280][586]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.04.14-01.46.08:339][586]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map_oasis01.FBX
+[2016.04.14-01.46.08:409][586]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.46.12:448][586]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map_oasis01.FBX
+[2016.04.14-01.46.12:520][586]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.46.12:544][586]LogFbx:Warning: Triangulating static mesh map_oasis01
+[2016.04.14-01.46.12:597][586]LogFbx:Warning: Triangulating static mesh map_oasis_collisione
+[2016.04.14-01.46.12:614][586]LogStaticMesh: スタティックメッシュ map_oasis01 をビルド中...
+[2016.04.14-01.46.12:621][586]LogStaticMesh: Built static mesh [0.007051.2s] /Game/CG/Mesh/map_oasis01.map_oasis01
+[2016.04.14-01.46.12:633][586]FBXImport:Warning: 警告 警告：このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
+[2016.04.14-01.47.08:771][675]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC3DC6A660
+[2016.04.14-01.47.18:418][810]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\136-i7_6700-02\Downloads\map_oasis01.FBX)
+[2016.04.14-01.47.18:427][810]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.14-01.47.18:427][810]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.14-01.47.18:427][810]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.14-01.47.18:427][810]LogFbx: ItemName: Model, ItemCount : 2
+[2016.04.14-01.47.18:427][810]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.04.14-01.47.18:486][810]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map_oasis01.FBX
+[2016.04.14-01.47.18:564][810]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.48.20:800][810]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map_oasis01.FBX
+[2016.04.14-01.48.20:870][810]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.48.20:894][810]LogFbx:Warning: Triangulating static mesh map_oasis01
+[2016.04.14-01.48.20:941][810]LogFbx:Warning: Triangulating static mesh map_oasis_collisione
+[2016.04.14-01.48.20:958][810]LogStaticMesh: スタティックメッシュ map_oasis01 をビルド中...
+[2016.04.14-01.48.20:965][810]LogStaticMesh: Built static mesh [0.006924.2s] /Game/CG/Mesh/map_oasis01.map_oasis01
+[2016.04.14-01.48.20:968][810]FBXImport:Warning: 警告 警告：このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
+[2016.04.14-01.49.24:964][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CG/Mesh/map_oasis01" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_oasis01.uasset" SILENT=true
+[2016.04.14-01.49.24:978][512]LogSavePackage: Save=9.995700ms
+[2016.04.14-01.49.24:978][512]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/map_oasis0170851BFB4D05F1D3D9437D967F82123F.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_oasis01.uasset'
+[2016.04.14-01.49.24:984][512]LogSavePackage: Total save time: 15.692294ms
+[2016.04.14-01.49.24:984][512]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_oasis01.uasset
+[2016.04.14-01.49.25:120][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CG/Mesh/map_oasis01" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_oasis01.uasset" SILENT=true
+[2016.04.14-01.49.25:135][522]LogSavePackage: Save=4.040406ms
+[2016.04.14-01.49.25:135][522]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/map_oasis015B91A8154A7348858C2D9BB85173B879.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_oasis01.uasset'
+[2016.04.14-01.49.25:137][522]LogSavePackage: Total save time: 13.709195ms
+[2016.04.14-01.49.25:137][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_oasis01.uasset
+[2016.04.14-01.49.30:111][850]LogSavePackage: Save=18.369169ms
+[2016.04.14-01.49.30:111][850]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/GameLevelB9F364444B34BCA9C6BF8DB4C49CEEAD.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/Level/GameLevel.umap'
+[2016.04.14-01.49.30:116][850]LogSavePackage: Total save time: 30.367795ms
+[2016.04.14-01.49.30:116][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/Level/GameLevel.umap
+[2016.04.14-01.49.30:135][850]LogFileHelpers: Saving map 'GameLevel' took 1.619
+[2016.04.14-01.49.30:141][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/gameMgr/gameMgr" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/BluePrints/gameMgr/gameMgr.uasset" SILENT=true
+[2016.04.14-01.49.30:195][850]LogSavePackage: Save=42.568336ms
+[2016.04.14-01.49.30:195][850]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/gameMgr796EDAC949E78AE3F434D69065D33262.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/BluePrints/gameMgr/gameMgr.uasset'
+[2016.04.14-01.49.30:199][850]LogSavePackage: Total save time: 54.355733ms
+[2016.04.14-01.49.30:199][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/BluePrints/gameMgr/gameMgr.uasset
+[2016.04.14-01.49.32:531][ 35]LogActorFactory: Actor Factory created map_oasis01
+[2016.04.14-01.49.33:875][164]LogActorFactory: Actor Factory created map_oasis01
+[2016.04.14-01.49.35:645][328]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.14-01.49.35:648][328]LogPlayLevel: [PlayLevel] Compiling gameMgr before play...
+[2016.04.14-01.49.35:694][328]LogPlayLevel: PlayLevel: Blueprint regeneration took 48 ms (1 blueprints)
+[2016.04.14-01.49.35:717][328]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:49:35)
+[2016.04.14-01.49.35:717][328]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.49.35:719][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002013s)
+[2016.04.14-01.49.35:720][328]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.49.35:720][328]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2016.04.14-01.49.35:720][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.003108s)
+[2016.04.14-01.49.35:742][328]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.49.35:746][328]LogInit: FAudioDevice initialized.
+[2016.04.14-01.49.35:781][328]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.49.35:783][328]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.49.35
+[2016.04.14-01.49.35:783][328]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.49.35:783][328]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.49.35:784][328]LogWorld: Bringing up level for play took: 0.001841
+[2016.04.14-01.49.35:785][328]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel 1.081のプレイ イン エディタの開始時間
+[2016.04.14-01.49.50:371][968]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC9A8314E0
+[2016.04.14-01.50.00:630][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map_oasis01)
+[2016.04.14-01.50.02:094][ 88]Cmd: DELETE
+[2016.04.14-01.50.02:094][ 88]Cmd: ACTOR DELETE
+[2016.04.14-01.50.02:095][ 88]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.14-01.50.02:115][ 88]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.04.14-01.52.20:718][280]LogStaticMesh: スタティックメッシュ SM_SpiderBoss_RubbleBit をビルド中...
+[2016.04.14-01.52.20:731][280]LogStaticMesh: Built static mesh [0.013346.2s] /Game/InfinityBladeEffects/Enemy/SM_SpiderBoss_RubbleBit.SM_SpiderBoss_RubbleBit
+[2016.04.14-01.52.58:396][880]LogTexture:Display: テクスチャをビルド中: T_Survival_CA_Chicken_02_M (DXT1)
+[2016.04.14-01.52.58:408][880]LogTexture:Display: テクスチャをビルド中: T_Survival_CA_Chicken_02_N (BC5)
+[2016.04.14-01.52.58:433][880]LogTexture:Display: テクスチャをビルド中: T_Survival_CA_Chicken_02_Mask (AutoDXT)
+[2016.04.14-01.52.58:458][880]LogTexture:Display: テクスチャをビルド中: T_Survival_CA_Chicken_02_D (DXT1)
+[2016.04.14-01.52.58:597][880]LogStaticMesh: スタティックメッシュ S_Survival_CA_Chicken_02 をビルド中...
+[2016.04.14-01.52.58:630][880]LogStaticMesh: Built static mesh [0.033352.2s] /Game/InfinityBladeEffects/Enemy/Enemy_Chicken/Meshes/S_Survival_CA_Chicken_02.S_Survival_CA_Chicken_02
+[2016.04.14-01.52.58:653][880]LogMaterial: Missing cached shader map for material M_EnemyChicken, compiling. 
+[2016.04.14-01.52.58:696][880]LogActorFactory: Actor Factory created S_Survival_CA_Chicken_02
+[2016.04.14-01.53.10:647][983]LogActorFactory: Actor Factory created S_Survival_CA_Chicken_02
+[2016.04.14-01.53.12:207][141]LogActorFactory: Actor Factory created S_Survival_CA_Chicken_02
+[2016.04.14-01.53.18:470][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.53.18:470][761]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:53:18)
+[2016.04.14-01.53.18:470][761]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.53.18:472][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002031s)
+[2016.04.14-01.53.18:473][761]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.53.18:473][761]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2016.04.14-01.53.18:473][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002842s)
+[2016.04.14-01.53.18:504][761]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC99D819E0
+[2016.04.14-01.53.18:504][761]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.53.18:509][761]LogInit: FAudioDevice initialized.
+[2016.04.14-01.53.18:539][761]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.53.18:542][761]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.53.18
+[2016.04.14-01.53.18:542][761]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.53.18:542][761]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.53.18:542][761]LogWorld: Bringing up level for play took: 0.001789
+[2016.04.14-01.53.18:543][761]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel -0.161のプレイ イン エディタの開始時間
+[2016.04.14-01.53.36:408][775]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCB55F22A0
+[2016.04.14-01.53.49:018][839]LogSavePackage: Save=12.315621ms
+[2016.04.14-01.53.49:018][839]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/S_Survival_CA_Chicken_027F6B58094CC2EB6D085C388A603599C0.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/InfinityBladeEffects/Enemy/Enemy_Chicken/Meshes/S_Survival_CA_Chicken_02.uasset'
+[2016.04.14-01.53.49:024][839]LogSavePackage: Total save time: 25.260426ms
+[2016.04.14-01.53.49:024][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/InfinityBladeEffects/Enemy/Enemy_Chicken/Meshes/S_Survival_CA_Chicken_02.uasset
+[2016.04.14-01.53.50:988][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.14-01.53.50:988][ 26]PIE: New page: PIEセッション: GameLevel (2016/04/14 19:53:50)
+[2016.04.14-01.53.50:988][ 26]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_GameLevel
+[2016.04.14-01.53.50:990][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001792s)
+[2016.04.14-01.53.50:991][ 26]LogAIModule: Creating AISystem for world GameLevel
+[2016.04.14-01.53.50:991][ 26]LogPlayLevel: PIE: World Init took: (0.000921s)
+[2016.04.14-01.53.50:991][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/GameLevel.GameLevel to /Game/Level/UEDPIE_0_GameLevel.GameLevel (0.002869s)
+[2016.04.14-01.53.51:021][ 26]LogInit: XAudio2 using 'ASUS PB279-0 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.14-01.53.51:025][ 26]LogInit: FAudioDevice initialized.
+[2016.04.14-01.53.51:058][ 26]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.04.14-01.53.51:061][ 26]LogWorld: Bringing World /Game/Level/UEDPIE_0_GameLevel.GameLevel up for play (max tick rate 0) at 2016.04.14-10.53.51
+[2016.04.14-01.53.51:061][ 26]LogActor:Warning: GameSession /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.53.51:061][ 26]LogActor:Warning: GameNetworkManager /Game/Level/UEDPIE_0_GameLevel.GameLevel:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.14-01.53.51:061][ 26]LogWorld: Bringing up level for play took: 0.001746
+[2016.04.14-01.53.51:062][ 26]PIE: 情報 /Game/Level/UEDPIE_0_GameLevel 0.358のプレイ イン エディタの開始時間
+[2016.04.14-01.54.11:195][300]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCBABBE3E0
+[2016.04.14-01.54.25:905][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_Survival_CA_Chicken_02)
+[2016.04.14-01.54.26:616][764]Cmd: DELETE
+[2016.04.14-01.54.26:616][764]Cmd: ACTOR DELETE
+[2016.04.14-01.54.26:617][764]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.14-01.54.26:638][764]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC9A297E20
+[2016.04.14-01.54.26:638][764]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2016.04.14-01.54.50:205][988]LogMaterial: Missing cached shader map for material M_Trans_Sprite_SubUV_Master_DepthFade, compiling. 
+[2016.04.14-01.54.50:239][988]LogTexture:Display: テクスチャをビルド中: T_Smoke_subUV_01 (AutoDXT)
+[2016.04.14-01.54.50:879][988]LogTexture:Display: テクスチャをビルド中: T_Env_Breakables_Box1_D (AutoDXT)
+[2016.04.14-01.54.51:752][988]LogMaterial: Missing cached shader map for material Beakable_Master_MeshEmit, compiling. 
+[2016.04.14-01.54.51:823][988]LogTexture:Display: テクスチャをビルド中: T_Env_Breakables_Breakables_D (AutoDXT)
+[2016.04.14-01.54.52:776][988]LogTexture:Display: テクスチャをビルド中: T_BlastWave (AutoDXT)
+[2016.04.14-01.54.53:183][988]LogTexture:Display: テクスチャをビルド中: T_IceChunks (AutoDXT)
+[2016.04.14-01.54.53:414][988]LogTexture:Display: テクスチャをビルド中: T_Env_Fire_deco_Pots_N (BC5)
+[2016.04.14-01.54.54:166][988]LogTexture:Display: テクスチャをビルド中: T_Env_Fire_deco_pots_Red_D (AutoDXT)
+[2016.04.14-01.54.57:123][988]LogMaterial: Missing cached shader map for material M_Breakables_Pots_Red, compiling. 
+[2016.04.14-01.54.57:134][988]LogMaterial: Missing cached shader map for material M_Trans_Sprite_SubUV_Master, compiling. 
+[2016.04.14-01.54.57:144][988]LogTexture:Display: テクスチャをビルド中: T_Wood_Fragments_01 (AutoDXT)
+[2016.04.14-01.54.57:292][988]LogMaterial: Missing cached shader map for material M_Add_Sprite_Master, compiling. 
+[2016.04.14-01.54.57:299][988]LogStaticMesh: スタティックメッシュ SM_PotDebris_Core をビルド中...
+[2016.04.14-01.54.57:320][988]LogStaticMesh: Built static mesh [0.020767.2s] /Game/InfinityBladeEffects/Environments/Breakables/StaticMesh/pot1/SM_PotDebris_Core.SM_PotDebris_Core
+[2016.04.14-01.54.57:348][988]LogMaterial: Missing cached shader map for material M_IceChunksBase, compiling. 
+[2016.04.14-01.54.57:364][988]LogTexture:Display: テクスチャをビルド中: ThumbnailTexture (DXT1)
+[2016.04.14-01.54.57:583][988]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2016.04.14-01.54.57:590][988]LogUObjectGlobals:Warning: オブジェクト 'StaticMesh なし.S_Env_Breakables_Boxes' が見つかりませんでした
+[2016.04.14-01.54.57:590][988]LogUObjectGlobals:Warning: オブジェクト 'StaticMesh なし.S_Env_Breakables_Boxes' が見つかりませんでした
+[2016.04.14-01.55.04:989][564]LogCascade: Quitting Cascade. FXSystem=0x000001BCBDA21260
+[2016.04.14-01.55.12:148][259]LogTexture:Display: テクスチャをビルド中: T_Spark_2_2_01 (AutoDXT)
+[2016.04.14-01.55.12:268][259]LogMaterial: Missing cached shader map for material M_Add_Sprite_SubUV_Master, compiling. 
+[2016.04.14-01.55.12:280][259]LogTexture:Display: テクスチャをビルド中: ThumbnailTexture (DXT1)
+[2016.04.14-01.55.20:002][917]LogCascade: Quitting Cascade. FXSystem=0x000001BCBF547380
+[2016.04.14-01.55.37:734][639]LogMaterial: Missing cached shader map for material M_Trans_MeshEmit_2Sided_Pan_Mask_Master, compiling. 
+[2016.04.14-01.55.37:769][639]LogTexture:Display: テクスチャをビルド中: T_Tile_Noise_Tendril_01 (AutoDXT)
+[2016.04.14-01.55.38:605][639]LogTexture:Display: テクスチャをビルド中: T_SoftFallOff (AutoDXT)
+[2016.04.14-01.55.38:619][639]LogMaterial: Missing cached shader map for material M_Add_Sprite_Master_DepthFade, compiling. 
+[2016.04.14-01.55.38:627][639]LogMaterial: Missing cached shader map for material M_Add_Sprite_2Sided_Master, compiling. 
+[2016.04.14-01.55.38:641][639]LogTexture:Display: テクスチャをビルド中: T_SwipeTrail (AutoDXT)
+[2016.04.14-01.55.38:694][639]LogStaticMesh: スタティックメッシュ SM_SwipeCircle_01 をビルド中...
+[2016.04.14-01.55.38:709][639]LogStaticMesh: Built static mesh [0.015307.2s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_SwipeCircle_01.SM_SwipeCircle_01
+[2016.04.14-01.55.38:711][639]LogStaticMesh: スタティックメッシュ SM_AuraCircle_04_Twist をビルド中...
+[2016.04.14-01.55.38:751][639]LogStaticMesh: Built static mesh [0.039449.2s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_AuraCircle_04_Twist.SM_AuraCircle_04_Twist
+[2016.04.14-01.55.38:759][639]LogTexture:Display: テクスチャをビルド中: T_BlastHalf (AutoDXT)
+[2016.04.14-01.55.38:785][639]LogStaticMesh: スタティックメッシュ SM_SwipeTrail_Set_01 をビルド中...
+[2016.04.14-01.55.38:797][639]LogStaticMesh: Built static mesh [0.012526.2s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_SwipeTrail_Set_01.SM_SwipeTrail_Set_01
+[2016.04.14-01.55.38:845][639]LogTexture:Display: テクスチャをビルド中: T_SmokeBall_01_8_8 (AutoDXT)
+[2016.04.14-01.55.39:666][639]LogTexture:Display: テクスチャをビルド中: T_Sparks_04_SubUV_1_4 (AutoDXT)
+[2016.04.14-01.55.39:724][639]LogTexture:Display: テクスチャをビルド中: ThumbnailTexture (DXT1)
+[2016.04.14-01.55.39:844][639]LogUObjectGlobals:Warning: オブジェクト 'StaticMesh なし.FX_Test_Player_Hips_01' が見つかりませんでした
+[2016.04.14-01.56.14:302][631]LogCascade: Quitting Cascade. FXSystem=0x000001BCB932AA20
+[2016.04.14-01.56.18:054][984]LogTexture:Display: テクスチャをビルド中: T_bloodTest_4X6 (AutoDXT)
+[2016.04.14-01.56.18:279][984]LogTexture:Display: テクスチャをビルド中: T_Black_32 (AutoDXT)
+[2016.04.14-01.56.18:281][984]LogMaterial: Missing cached shader map for material M_Trans_Sprite_Master_DepthFade, compiling. 
+[2016.04.14-01.56.18:295][984]LogTexture:Display: テクスチャをビルド中: ThumbnailTexture (DXT1)
+[2016.04.14-01.56.18:410][984]LogUObjectGlobals:Warning: オブジェクト 'StaticMesh なし.FX_Test_Player_Hips_01' が見つかりませんでした
+[2016.04.14-01.56.24:103][456]LogCascade: Quitting Cascade. FXSystem=0x000001BCBD9BCF40
+[2016.04.14-01.56.27:164][741]LogTexture:Display: テクスチャをビルド中: T_Lightning_Bolt_01 (AutoDXT)
+[2016.04.14-01.56.27:456][741]LogTexture:Display: テクスチャをビルド中: T_Lightning_Arc_4x1 (AutoDXT)
+[2016.04.14-01.56.27:584][741]LogStaticMesh: スタティックメッシュ SM_FireBlastMesh_Twist_01 をビルド中...
+[2016.04.14-01.56.27:619][741]LogStaticMesh: Built static mesh [0.034070.2s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_FireBlastMesh_Twist_01.SM_FireBlastMesh_Twist_01
+[2016.04.14-01.56.27:698][741]LogTexture:Display: テクスチャをビルド中: T_Fire_Sprite_01_5x5 (AutoDXT)
+[2016.04.14-01.56.28:363][741]LogMaterial: Missing cached shader map for material M_Add_Trail_2Sided_Pan_Master, compiling. 
+[2016.04.14-01.56.28:370][741]LogTexture:Display: テクスチャをビルド中: T_FireBlastTile (AutoDXT)
+[2016.04.14-01.56.28:450][741]LogMaterial: Missing cached shader map for material M_Add_Trail_2Sided_Pan_Master, compiling. 
+[2016.04.14-01.56.28:466][741]LogTexture:Display: テクスチャをビルド中: ThumbnailTexture (DXT1)
+[2016.04.14-01.56.28:544][741]LogUObjectGlobals:Warning: オブジェクト 'StaticMesh なし.FX_Test_Player_Hips_01' が見つかりませんでした
+[2016.04.14-01.56.28:776][741]LogRenderer: Reallocating scene render targets to support 1796x920 (Frame:262648).
+[2016.04.14-01.56.28:783][741]LogRenderer: Reallocating scene render targets to support 1976x920 (Frame:262649).
+[2016.04.14-01.56.28:790][741]LogRenderer: Reallocating scene render targets to support 2156x920 (Frame:262650).
+[2016.04.14-01.56.28:806][741]LogRenderer: Reallocating scene render targets to support 2336x920 (Frame:262651).
+[2016.04.14-01.56.35:031][216]LogCascade: Quitting Cascade. FXSystem=0x000001BCBB2222A0
+[2016.04.14-01.56.53:588][908]LogTexture:Display: テクスチャをビルド中: T_GlowNoise_01 (AutoDXT)
+[2016.04.14-01.56.53:610][908]LogTexture:Display: テクスチャをビルド中: ThumbnailTexture (DXT1)
+[2016.04.14-01.56.53:645][908]LogUObjectGlobals:Warning: オブジェクト 'StaticMesh なし.FX_Test_Space_01' が見つかりませんでした
+[2016.04.14-01.57.01:637][552]LogCascade: Quitting Cascade. FXSystem=0x000001BC32A04E00
+[2016.04.14-01.57.03:926][748]LogTexture:Display: テクスチャをビルド中: T_starFlare_01 (AutoDXT)
+[2016.04.14-01.57.03:942][748]LogTexture:Display: テクスチャをビルド中: ThumbnailTexture (DXT1)
+[2016.04.14-01.57.04:011][748]LogUObjectGlobals:Warning: オブジェクト 'StaticMesh なし.FX_Test_Space_01' が見つかりませんでした
+[2016.04.14-01.57.09:978][219]LogUObjectGlobals:Warning: オブジェクト 'StaticMesh なし.FX_Test_Space_01' が見つかりませんでした
+[2016.04.14-01.57.12:793][434]LogCascade: Quitting Cascade. FXSystem=0x000001BCE9C94A40
+[2016.04.14-01.57.20:782][156]LogTexture:Display: テクスチャをビルド中: T_starFlare_02 (AutoDXT)
+[2016.04.14-01.57.20:802][156]LogTexture:Display: テクスチャをビルド中: T_HealHeart_02 (AutoDXT)
+[2016.04.14-01.57.20:895][156]LogStaticMesh: スタティックメッシュ SM_BlastWave をビルド中...
+[2016.04.14-01.57.20:909][156]LogStaticMesh: Built static mesh [0.014008.2s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave.SM_BlastWave
+[2016.04.14-01.57.20:945][156]LogMaterial: Missing cached shader map for material M_Trans_Sprite_Master, compiling. 
+[2016.04.14-01.57.20:955][156]LogTexture:Display: テクスチャをビルド中: ThumbnailTexture (DXT1)
+[2016.04.14-01.57.44:185][ 50]LogStaticMesh: スタティックメッシュ SM_Spiral_Swirl_01 をビルド中...
+[2016.04.14-01.57.44:196][ 50]LogStaticMesh: Built static mesh [0.011199.2s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Spiral_Swirl_01.SM_Spiral_Swirl_01
+[2016.04.14-01.57.44:214][ 50]LogTexture:Display: テクスチャをビルド中: ThumbnailTexture (DXT1)
+[2016.04.14-01.57.54:785][907]LogCascade: Quitting Cascade. FXSystem=0x000001BCBC58B240
+[2016.04.14-01.57.55:364][947]LogCascade: Quitting Cascade. FXSystem=0x000001BCBD33AE80
+[2016.04.14-01.57.55:383][947]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2016.04.14-01.57.57:133][ 86]LogCascade: Quitting Cascade. FXSystem=0x000001BCBABBC900
+[2016.04.14-01.57.57:143][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
+[2016.04.14-01.58.32:202][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (map_base)
+[2016.04.14-01.58.32:587][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCB932AA20
+[2016.04.14-01.58.32:588][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCBD9BCF40
+[2016.04.14-01.58.32:590][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCBF547380
+[2016.04.14-01.58.32:591][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCBDA21260
+[2016.04.14-01.58.32:591][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCBB2222A0
+[2016.04.14-01.58.32:591][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC32A04E00
+[2016.04.14-01.58.32:592][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCE9C94A40
+[2016.04.14-01.58.32:592][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCBABBC900
+[2016.04.14-01.58.32:593][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCBC58B240
+[2016.04.14-01.58.32:593][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCBD33AE80
+[2016.04.14-01.58.32:805][822]LogSavePackage: Save=18.036551ms
+[2016.04.14-01.58.32:805][822]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/GameLevelE84F275B46FD8B1519CE2AAA2119D01A.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/Level/GameLevel.umap'
+[2016.04.14-01.58.32:810][822]LogSavePackage: Total save time: 30.853353ms
+[2016.04.14-01.58.32:810][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/Level/GameLevel.umap
+[2016.04.14-01.58.32:829][822]LogFileHelpers: Saving map 'GameLevel' took 0.187
+[2016.04.14-01.58.32:866][822]LogSavePackage: Save=11.224618ms
+[2016.04.14-01.58.32:866][822]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/S_Survival_CA_Chicken_021B8C651D46642B82795039A7DBE14B7D.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/InfinityBladeEffects/Enemy/Enemy_Chicken/Meshes/S_Survival_CA_Chicken_02.uasset'
+[2016.04.14-01.58.32:874][822]LogSavePackage: Total save time: 22.916164ms
+[2016.04.14-01.58.32:874][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/InfinityBladeEffects/Enemy/Enemy_Chicken/Meshes/S_Survival_CA_Chicken_02.uasset
+[2016.04.14-01.59.18:792][854]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_42' or package '/Engine/Transient'.
+[2016.04.14-01.59.18:898][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC2536C860
+[2016.04.14-01.59.18:901][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC3C9E1760
+[2016.04.14-01.59.18:902][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BCCD461940
+[2016.04.14-01.59.54:340][784]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\136-i7_6700-02\Downloads\map_oasis01.FBX)
+[2016.04.14-01.59.54:354][784]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.04.14-01.59.54:354][784]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.04.14-01.59.54:354][784]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.04.14-01.59.54:354][784]LogFbx: ItemName: Model, ItemCount : 2
+[2016.04.14-01.59.54:354][784]LogFbx: ItemName: Geometry, ItemCount : 2
+[2016.04.14-01.59.54:416][784]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map_oasis01.FBX
+[2016.04.14-01.59.54:494][784]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.59.59:822][784]LogFbx: Loading FBX Scene from C:\Users\136-i7_6700-02\Downloads\map_oasis01.FBX
+[2016.04.14-01.59.59:893][784]LogFbx: FBX Scene Loaded Succesfully
+[2016.04.14-01.59.59:918][784]LogStaticMesh: スタティックメッシュ map_oasis01 をビルド中...
+[2016.04.14-01.59.59:925][784]LogStaticMesh: Built static mesh [0.006852.2s] /Game/CG/Mesh/map_oasis01.map_oasis01
+[2016.04.14-01.59.59:927][784]FBXImport:Warning: 警告 警告：このFBXシーンにはスムージンググループ情報がありません。ファイルをエクスポートする前に必ずFBX Exporter プラグインの[Export Smoothing Groups] オプションを有効にしてください。スムージング グループをサポートしないツールの場合でも、インポート中に正しい頂点法線を推測するため、FBX Exporter はエクスポート時に適切なスムージング データを生成します。 
+[2016.04.14-02.00.19:486][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CG/Mesh/map_oasis01" FILE="../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_oasis01.uasset" SILENT=true
+[2016.04.14-02.00.19:500][564]LogSavePackage: Save=9.475889ms
+[2016.04.14-02.00.19:500][564]LogSavePackage: Moving '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Saved/map_oasis01567A4AD4408EA0D18DEE33AA0E65B41C.tmp' to '../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_oasis01.uasset'
+[2016.04.14-02.00.19:505][564]LogSavePackage: Total save time: 14.930904ms
+[2016.04.14-02.00.19:505][564]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/136-i7_6700-02/Documents/Unreal Projects/YouHaShock/Content/CG/Mesh/map_oasis01.uasset
+[2016.04.14-02.00.21:260][723]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Google 日本語入力).
+[2016.04.14-02.00.21:477][724]Cmd: QUIT_EDITOR
+[2016.04.14-02.00.22:334][724]LogExit: Preparing to exit.
+[2016.04.14-02.00.23:132][724]LogExit: Editor shut down
+[2016.04.14-02.00.23:133][724]LogExit: Transaction tracking system shut down
+[2016.04.14-02.00.23:135][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC6BDA2020
+[2016.04.14-02.00.23:144][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC582A8400
+[2016.04.14-02.00.23:144][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC73C54C20
+[2016.04.14-02.00.23:144][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC57F55D00
+[2016.04.14-02.00.23:145][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC744B7060
+[2016.04.14-02.00.23:148][724]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001BC99719120
+[2016.04.14-02.00.23:390][724]LogExit: Object subsystem successfully closed.
+[2016.04.14-02.00.23:426][724]LogD3D11RHI: Shutdown
+[2016.04.14-02.00.23:426][724]LogD3D11RHI: CleanupD3DDevice
+[2016.04.14-02.00.23:525][724]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.14-02.00.23:570][724]LogModuleManager: Shutting down and abandoning module DistCurveEditor (203)
+[2016.04.14-02.00.23:570][724]LogModuleManager: Shutting down and abandoning module Cascade (202)
+[2016.04.14-02.00.23:570][724]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.04.14-02.00.23:570][724]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.04.14-02.00.23:570][724]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (199)
+[2016.04.14-02.00.23:570][724]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.04.14-02.00.23:570][724]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.04.14-02.00.23:570][724]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.04.14-02.00.23:570][724]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.04.14-02.00.23:570][724]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.04.14-02.00.23:577][724]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.04.14-02.00.23:577][724]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.04.14-02.00.23:578][724]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.04.14-02.00.23:579][724]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.04.14-02.00.23:579][724]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.04.14-02.00.23:580][724]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.04.14-02.00.23:580][724]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.04.14-02.00.23:580][724]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.04.14-02.00.23:580][724]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.04.14-02.00.23:580][724]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.04.14-02.00.23:580][724]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.04.14-02.00.23:580][724]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.04.14-02.00.23:580][724]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.04.14-02.00.23:580][724]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.04.14-02.00.23:580][724]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.04.14-02.00.23:582][724]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.04.14-02.00.23:582][724]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.04.14-02.00.23:583][724]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.04.14-02.00.23:583][724]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.04.14-02.00.23:583][724]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.04.14-02.00.23:583][724]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.04.14-02.00.24:098][724]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.04.14-02.00.24:098][724]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.04.14-02.00.24:098][724]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.04.14-02.00.24:098][724]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.04.14-02.00.24:104][724]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.04.14-02.00.24:104][724]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.04.14-02.00.24:104][724]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.04.14-02.00.24:105][724]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.04.14-02.00.24:105][724]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.04.14-02.00.24:106][724]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.04.14-02.00.24:106][724]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.04.14-02.00.24:107][724]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.04.14-02.00.24:107][724]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.04.14-02.00.24:108][724]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.04.14-02.00.24:108][724]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.04.14-02.00.24:108][724]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.04.14-02.00.24:108][724]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.04.14-02.00.24:109][724]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.04.14-02.00.24:109][724]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.04.14-02.00.24:110][724]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.04.14-02.00.24:110][724]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.04.14-02.00.24:111][724]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.04.14-02.00.24:112][724]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.04.14-02.00.24:113][724]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.04.14-02.00.24:114][724]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.04.14-02.00.24:114][724]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.04.14-02.00.24:114][724]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.04.14-02.00.24:115][724]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.04.14-02.00.24:115][724]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.04.14-02.00.24:118][724]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.04.14-02.00.24:118][724]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.04.14-02.00.24:118][724]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.04.14-02.00.24:118][724]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.04.14-02.00.24:120][724]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.04.14-02.00.24:120][724]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.04.14-02.00.24:120][724]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.04.14-02.00.24:122][724]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.04.14-02.00.24:122][724]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.04.14-02.00.24:123][724]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.04.14-02.00.24:123][724]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.04.14-02.00.24:123][724]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.04.14-02.00.24:124][724]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.04.14-02.00.24:124][724]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.04.14-02.00.24:125][724]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.04.14-02.00.24:125][724]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.04.14-02.00.24:125][724]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.04.14-02.00.24:125][724]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.04.14-02.00.24:125][724]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.04.14-02.00.24:126][724]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.04.14-02.00.24:126][724]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.04.14-02.00.24:301][724]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.04.14-02.00.24:303][724]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.04.14-02.00.24:303][724]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.04.14-02.00.24:303][724]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.04.14-02.00.24:303][724]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.04.14-02.00.24:303][724]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.04.14-02.00.24:303][724]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.04.14-02.00.24:303][724]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.04.14-02.00.24:313][724]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.04.14-02.00.24:313][724]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.04.14-02.00.24:313][724]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.04.14-02.00.24:313][724]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.04.14-02.00.24:315][724]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.04.14-02.00.24:317][724]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.04.14-02.00.24:317][724]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.04.14-02.00.24:317][724]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.04.14-02.00.24:318][724]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.04.14-02.00.24:318][724]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.04.14-02.00.24:319][724]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.04.14-02.00.24:319][724]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.04.14-02.00.24:319][724]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.04.14-02.00.24:320][724]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.04.14-02.00.24:322][724]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.04.14-02.00.24:323][724]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.04.14-02.00.24:324][724]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.04.14-02.00.24:324][724]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.04.14-02.00.24:324][724]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.04.14-02.00.24:324][724]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.04.14-02.00.24:324][724]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.04.14-02.00.24:325][724]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.04.14-02.00.24:325][724]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.04.14-02.00.24:325][724]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.04.14-02.00.24:327][724]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.04.14-02.00.24:332][724]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.04.14-02.00.24:514][724]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.04.14-02.00.24:515][724]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.04.14-02.00.24:516][724]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.14-02.00.24:617][724]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.14-02.00.24:617][724]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.14-02.00.24:622][724]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.14-02.00.24:626][724]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.14-02.00.24:626][724]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.14-02.00.24:631][724]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.14-02.00.24:631][724]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.14-02.00.24:631][724]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.14-02.00.24:631][724]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.14-02.00.24:636][724]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.14-02.00.24:636][724]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.14-02.00.24:636][724]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.14-02.00.24:636][724]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.14-02.00.24:636][724]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.14-02.00.24:638][724]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.14-02.00.24:640][724]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.14-02.00.24:642][724]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.14-02.00.24:643][724]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.14-02.00.24:643][724]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.14-02.00.24:645][724]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.14-02.00.24:645][724]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.14-02.00.24:645][724]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.14-02.00.24:645][724]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.14-02.00.24:645][724]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.14-02.00.24:645][724]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.14-02.00.24:645][724]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.14-02.00.24:645][724]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.14-02.00.24:645][724]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.14-02.00.24:646][724]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.14-02.00.24:726][724]LogDerivedDataCache: Shutdown
+[2016.04.14-02.00.24:726][724]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.14-02.00.24:727][724]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.14-02.00.24:727][724]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.14-02.00.24:728][724]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.14-02.00.24:728][724]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.14-02.00.24:728][724]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.14-02.00.24:729][724]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.14-02.00.24:729][724]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.14-02.00.24:729][724]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.14-02.00.24:729][724]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.14-02.00.24:729][724]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.14-02.00.24:729][724]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.14-02.00.24:729][724]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.14-02.00.24:730][724]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.14-02.00.24:731][724]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.14-02.00.24:731][724]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.14-02.00.24:731][724]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.14-02.00.24:731][724]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.14-02.00.24:731][724]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.14-02.00.24:731][724]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.14-02.00.24:731][724]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.14-02.00.24:732][724]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.14-02.00.24:732][724]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.14-02.00.25:732][724]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.14-02.00.25:739][724]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.14-02.00.25:740][724]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.14-02.00.25:740][724]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.14-02.00.25:740][724]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.14-02.00.25:740][724]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.14-02.00.25:740][724]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.14-02.00.25:764][724]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.14-02.00.25:765][724]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.14-02.00.25:765][724]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.14-02.00.25:765][724]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.14-02.00.25:765][724]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.14-02.00.25:765][724]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.14-02.00.25:765][724]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.14-02.00.25:765][724]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.14-02.00.25:766][724]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.14-02.00.25:766][724]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.14-02.00.25:768][724]LogExit: Exiting.
+[2016.04.14-02.00.25:782][724]Log file closed, 04/14/16 11:00:25
